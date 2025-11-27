@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지_SB-PO-P08-002</title>
+
+    <!-- css + font + scss -->
+    <!-- <link rel="stylesheet" href="../../plugIn/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../css/web-ui.css">
+    <link rel="stylesheet" href="../css/common-ui.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
+    <!-- js -->
+    <script type="text/javascript" src="../plugIn/jquery/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    
+
+</head>
+<body>
+<!-- =========== header =========== -->
+
+<!-- =================================
+    gnb 메인과 상세페이지의 header 디자인이 다릅니다 
+    <div class="h-wrap line"> 로 상세 작업부탁드립니다.
+    ================================= -->
+        <header id="header" class="header">
+        <div class="h-wrap line">
+            <div class="h-inbox">               
+                <!-- ===== logo ===== -->
+                <div class="h-left-area">
+                    <h1 id="d-logo" class="logo">
+                        <a href="#">
+                            <span class="hidden">로고이미지영역</span>
+                        </a>
+                    </h1>
+                </div>
+                <!-- //===== logo ===== -->
+                
+                <nav id="gnb" class="gnb-area">
+                    <div class="gnb-inbox">
+                        <ul class="gnb">
+                            <!-- ===== gnb 1depth 추첨식 복권 ===== -->
+                            <li class="depth1-box">
+                                <a href="#" class="a-depth1">
+                                    <span class="1depth-tit">추첨식 복권</span>
+                                </a>
+    
+                                <!-- ===== gnb 2depth ===== -->
+                                <div class="depth2-wrap">
+                                    <ul class="depth2-inbox dense">
+                                        <!-- 로또6/45 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    로또6/45
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>예약구매</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>로또6/45 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>추첨결과</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>통계</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 연금복권720+ -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    연금복권720+
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>예약구매</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>연금복권720+ 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>추첨결과</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>통계</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 파워볼 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    파워볼
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>파워볼 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>추첨결과</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 스피드키노 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    스피드키노
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>스피드키노 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>추첨결과</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 메가빙고 -->
+                                        <li class="depth2-detail-box no-line">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    메가빙고
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>메가빙고 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>추첨결과</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //===== gnb 2depth ===== -->
+                            </li>
+                            <!-- //===== gnb 1depth ===== -->
+                            <!-- ===== gnb 1depth 즉석식 복권 ===== -->
+                            <li class="depth1-box">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">즉석식 복권</span>
+                                </a>
+
+                                <!-- ===== gnb 2depth ===== -->                                
+                                <div class="depth2-wrap">
+                                    <ul class="depth2-inbox">
+                                        <!-- 트리플럭 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    트리플럭
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>트리플럭 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 트레져헌터 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    트레져헌터
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>트레져헌터 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 더블잭마이더스 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    더블잭마이더스
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>더블잭마이더스 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 캐치미 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    캐치미
+                                                </div>
+                                                <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>샘플게임</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>캐치미 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 스피또2000 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    스피또2000
+                                                </div>
+                                                <!-- <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button> -->
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>스피또2000 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨내역</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 스피또1000 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    스피또1000
+                                                </div>
+                                                <!-- <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button> -->
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>스피또1000 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨내역</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 스피또500 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    스피또500
+                                                </div>
+                                                <!-- <button class="btn-buying1 d-caption-txt1">
+                                                    바로구매
+                                                </button> -->
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>스피또500 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨내역</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>당첨자이야기</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 공백 -->
+                                        <li class="depth2-detail-box"></li>
+                                        <li class="depth2-detail-box"></li>
+                                        <li class="depth2-detail-box"></li>
+                                    </ul>
+                                </div>
+                                <!-- //===== gnb 2depth ===== -->
+                            </li>
+                            <!-- //===== gnb 1depth ===== -->
+                            <!-- ===== gnb 1depth 판매점 ===== -->
+                            <li class="depth1-box">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">판매점</span>
+                                </a>
+                                <!-- ===== gnb 2depth ===== -->                                
+                                <div class="depth2-wrap">
+                                    <ul class="depth2-inbox dense">
+                                        <!-- 구입처 검색 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    구입처 검색
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 당첨 판매점 검색 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    당첨 판매점 검색
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 신규판매점 모집안내 -->
+                                        <li class="depth2-detail-box">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    신규판매점 모집안내
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 공백 -->
+                                        <li class="depth2-detail-box"></li>
+                                        <li class="depth2-detail-box"></li>
+                                    </ul>
+                                </div>
+                                <!-- //===== gnb 2depth ===== -->
+                            </li>
+                            <!-- //===== gnb 1depth ===== -->
+                            <!-- ===== gnb 1depth 행복공감 ===== -->
+                            <li class="depth1-box">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">행복공감</span>
+                                </a>
+
+                                <!-- ===== gnb 2depth ===== -->                                
+                                <div class="depth2-wrap">
+                                    <ul class="depth2-inbox">
+                                        <!-- 건전한 복권문화 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    건전한 복권문화
+                                                </div>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>복권바로알기</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>건전구매 프로그램</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>건전화캠페인</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>건전화 책임규정</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>복권 과몰입 예방법</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>중독예방 및 상담안내</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 복권기금 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    복권기금
+                                                </div>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>복권기금 소개</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>기금사업 활동</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 행복공감 봉사단 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    행복공감 봉사단
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 동행히어로 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    동행히어로
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 복권이야기 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    복권이야기
+                                                </div>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>복권웹툰</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 이벤트 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    이벤트
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 공백 -->
+                                        <li class="depth2-detail-box"></li>
+                                        <li class="depth2-detail-box"></li>
+                                        <li class="depth2-detail-box"></li>
+                                        <li class="depth2-detail-box"></li>
+                                    </ul>
+                                </div>
+                                <!-- //===== gnb 2depth ===== -->
+                            </li>
+                            <!-- //===== gnb 1depth ===== -->
+                            <!-- ===== gnb 1depth 고객센터===== -->
+                            <li class="depth1-box">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">고객센터</span>
+                                </a>
+
+                                <!-- ===== gnb 2depth ===== -->                                
+                                <div class="depth2-wrap">
+                                    <ul class="depth2-inbox">
+                                        <!-- 고객센터 안내 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    고객센터 안내
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 자주묻는 질문 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    자주묻는 질문
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 1:1 상담 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    1:1 상담
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 미수령당첨금 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    미수령당첨금
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 이용약관 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    이용약관
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 사용자가이드 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    사용자가이드
+                                                </div>
+                                            </div>
+                                            <ul class="depth2-detail">
+                                                <li class="depth2-li mt-8">
+                                                    <a href="#">
+                                                        <span>당첨자 가이드</span>
+                                                    </a>
+                                                </li>
+                                                <li class="depth2-li">
+                                                    <a href="#">
+                                                        <span>이용자 가이드</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- 개인정보처리방침 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    개인정보처리방침
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 복권 및 복권기금법 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    복권 및 복권기금법
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 동행클린센터 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    동행클린센터
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- 모바일 동행복권 -->
+                                        <li class="depth2-detail-box inst">
+                                            <div class="lottery-tit-box">
+                                                <div class="lottery-tit">
+                                                    모바일 동행복권
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //===== gnb 2depth ===== -->                               
+                            </li>
+                            <!-- //===== gnb 1depth ===== -->
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="h-right-area">
+                    <ul class="h-right-link">
+                        <li>
+                            <a href="#" class="d-caption-txt1">로그인</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#" class="d-caption-txt1">로그아웃</a>
+                        </li> -->
+                        <li>
+                            <a href="#" class="d-caption-txt1">회원가입</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#" class="d-caption-txt1 my-page">마이페이지</a>
+                        </li> -->
+                        <li>
+                            <a href="#" class="d-caption-txt1">수탁업자 소개</a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-caption-txt1 dh-info">About Us</a>
+                        </li>
+                    </ul>
+                    <button class="btn-all-menu">
+                        <span class="hidden">전체메뉴보기</span>
+                    </button>
+                </div>
+
+                <!-- 전체메뉴 영역 start -->                
+                <div class="all-menu-box">
+                    <div class="all-menu-inbox">
+                        <!-- 가로 1440px -->
+                        <ul class="all-menu-ul">
+                            <li class="all-menu-depth1">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">추첨식 복권</span>
+                                </a>
+                                <ul class="depth2-inbox dense">
+                                    <!-- 로또6/45 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                로또6/45
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>예약구매</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>로또6/45 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>추첨결과</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>통계</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 연금복권720+ -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                연금복권720+
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>예약구매</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>연금복권720+ 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>추첨결과</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>통계</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 파워볼 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                파워볼
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>파워볼 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>추첨결과</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 스피드키노 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                스피드키노
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>스피드키노 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>추첨결과</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 메가빙고 -->
+                                    <li class="depth2-detail-box no-line">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                메가빙고
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>메가빙고 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>추첨결과</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="all-menu-depth1">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">즉석식 복권</span>
+                                </a>
+                                <ul class="depth2-inbox">
+                                    <!-- 트리플럭 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                트리플럭
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>트리플럭 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 트레져헌터 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                트레져헌터
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>트레져헌터 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 더블잭마이더스 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                더블잭마이더스
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>더블잭마이더스 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 캐치미 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                캐치미
+                                            </div>
+                                            <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>샘플게임</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>캐치미 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 스피또2000 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                스피또2000
+                                            </div>
+                                            <!-- <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button> -->
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li mt-8">
+                                                <a href="#">
+                                                    <span>스피또2000 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨내역</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 스피또1000 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                스피또1000
+                                            </div>
+                                            <!-- <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button> -->
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li mt-8">
+                                                <a href="#">
+                                                    <span>스피또1000 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨내역</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 스피또500 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                스피또500
+                                            </div>
+                                            <!-- <button class="btn-buying1 d-caption-txt1">
+                                                바로구매
+                                            </button> -->
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li mt-8">
+                                                <a href="#">
+                                                    <span>스피또500 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨내역</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>당첨자이야기</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="all-menu-depth1">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">판매점</span>
+                                </a>
+                                <ul class="depth2-inbox dense">
+                                    <!-- 구입처 검색 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                구입처 검색
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- 당첨 판매점 검색 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                당첨 판매점 검색
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- 신규판매점 모집안내 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                신규판매점 모집안내
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="all-menu-depth1">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">행복공감</span>
+                                </a>
+                                <ul class="depth2-inbox">
+                                    <!-- 건전한 복권문화 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                건전한 복권문화
+                                            </div>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li mt-8">
+                                                <a href="#">
+                                                    <span>복권바로알기</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>건전구매 프로그램</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>건전화캠페인</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>건전화 책임규정</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>복권 과몰입 예방법</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>중독예방 및 상담안내</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 복권기금 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                복권기금
+                                            </div>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li mt-8">
+                                                <a href="#">
+                                                    <span>복권기금 소개</span>
+                                                </a>
+                                            </li>
+                                            <li class="depth2-li">
+                                                <a href="#">
+                                                    <span>기금사업 활동</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 행복공감 봉사단 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                행복공감 봉사단
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- 동행히어로 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                동행히어로
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- 복권이야기 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                복권이야기
+                                            </div>
+                                        </div>
+                                        <ul class="depth2-detail">
+                                            <li class="depth2-li mt-8">
+                                                <a href="#">
+                                                    <span>복권웹툰</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- 이벤트 -->
+                                    <li class="depth2-detail-box">
+                                        <div class="lottery-tit-box">
+                                            <div class="lottery-tit">
+                                                이벤트
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="all-menu-depth1">
+                                <a href="#" class="a-depth1">
+                                    <span class="depth1-tit">고객센터</span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- 전체메뉴 영역 start -->
+                <div class="gnb-bg"></div>
+            </div>
+        </div>
+    </header>
+<!-- //=========== header =========== -->
+
+<!-- =========== 마이페이지 start =========== -->
+    <div class="container-box">
+    <!-- bread-crumb start-->
+        <div class="bread-crumb">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a class="nav-a">
+                        <img src="../img/icon/icon_nav_home.svg">
+                        <!-- <figure>
+                        </figure> -->
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a">
+                        마이페이지
+                    </a>
+                </li>
+                <!-- 
+                    해당 페이지 강조 색상    
+                    <a class="nav-a active"> 
+                -->
+                <li class="nav-li">
+                    <a class="nav-a active">
+                        나의 복권 가계부
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <!-- bread-crumb end -->
+        <!-- Lottery products -->
+        <div class="content-box-wrap">
+            <div class="center-wrap">
+                <div class="myPage-flex">
+                    <!-- 마이페이지 snb start -->
+                    <ul class="myPage-ul">
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">MY 홈</a>
+                        </li>
+                        <!-- 
+                            인입한 해당 페이지에 on 클래스 붙음! 
+                            <a href="#" class="myPage-a on">
+                        -->
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a on">나의 복권 가계부</a>
+                        </li>
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">구매현황 분석</a>
+                        </li>
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">나의 복권 번호관리</a>
+                        </li>
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">예약구매 내역</a>
+                        </li>
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">예치금</a>
+                            <ul class="depth3-ul">
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">충전하기</a>
+                                </li>
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">출금신청</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">건전구매 프로그램</a>
+                            <ul class="depth3-ul">
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">셀프진단 평가</a>
+                                </li>
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">셀프구매 계획</a>
+                                </li>
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">셀프휴식 계획</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="myPage-li">
+                            <a href="#" class="myPage-a">개인정보</a>
+                            <ul class="depth3-ul">
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">개인정보 변경</a>
+                                </li>
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">비밀번호 변경</a>
+                                </li>
+                                <li class="depth3-li">
+                                    <a href="#" class="myPage-a">회원탈퇴</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- 마이페이지 snb end -->
+                    <!-- 나의 복권 가계부 start -->
+                    <div class="myPage-main-wrapper">
+                        <div class="myPage-main-tit">
+                            나의 복권 가계부
+                        </div>
+                        <!-- 조회 테이블 -->
+                    <form>
+                        <div class="myPage-bg-wrap mt-60">
+                            <div class="myPage-bg-gridWrap">
+                                <div class="myPage-bg-grid01">
+                                    <div class="myPage-bg-innerBox">
+                                        <div class="box-item02-th">
+                                            조회기간
+                                        </div>
+                                        <div class="box-item02-td">
+                                            <div class="input-control calendar">
+                                                <div class="input-inbox-calendar">
+                                                    <input class="input-default" type="text" >
+                                                    <span class="input-and">-</span>
+                                                    <input class="input-default" type="text" >
+                                                </div>
+                                                <!-- <div class="valid">성공메시지</div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="myPage-bg-innerBox">
+                                        <div class="box-item03-btn">
+                                            <!-- 
+                                                @@@
+                                                선택시 on 클래스 붙음
+                                                <button class="btn-view02 on">
+                                                @@@
+                                            -->
+                                            <button class="btn-view02 on" type="button">
+                                                당일
+                                            </button>
+                                            <button class="btn-view02" type="button">
+                                                1주일
+                                            </button>
+                                            <button class="btn-view02" type="button">
+                                                3개월
+                                            </button>
+                                            <button class="btn-view02" type="button">
+                                                6개월
+                                            </button>
+                                            <button class="btn-view02" type="button">
+                                                12개월
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="myPage-bg-grid01">
+                                    <div class="myPage-bg-innerBox">
+                                        <div class="box-item02-th">
+                                            정렬
+                                        </div>
+                                        <div class="box-item02-td">
+                                            <div class="radio-wrapper">
+                                                <div class="radio-control">
+                                                    <input type="radio" id="radio1" value="전체" checked>
+                                                    <label for="radio1">전체</label>
+                                                </div>
+                                                <div class="radio-control">
+                                                    <input type="radio" id="radio2" value="과거순">
+                                                    <label for="radio2">과거순</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="myPage-bg-innerBox">
+                                        <div class="box-item02-th">
+                                            당첨결과
+                                        </div>
+                                        <div class="box-item02-td">
+                                            <div class="radio-wrapper">
+                                                <div class="radio-control">
+                                                    <input type="radio" id="radio1" value="전체" checked>
+                                                    <label for="radio1">전체</label>
+                                                </div>
+                                                <div class="radio-control">
+                                                    <input type="radio" id="radio2" value="당첨">
+                                                    <label for="radio2">당첨</label>
+                                                </div>
+                                                <div class="radio-control">
+                                                    <input type="radio" id="radio3" value="낙점">
+                                                    <label for="radio3">낙점</label>
+                                                </div>
+                                                <div class="radio-control">
+                                                    <input type="radio" id="radio4" value="미확인">
+                                                    <label for="radio4">미확인</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="myPage-bg-grid01">
+                                    <div class="myPage-bg-innerBox">
+                                        <div class="box-item02-th">
+                                            유형
+                                        </div>
+                                        <div class="box-item02-td">
+                                            <div class="box-item03-btn">
+                                                <!-- 
+                                                    @@@
+                                                    선택시 on 클래스 붙음
+                                                    <button class="btn-view02 on">
+                                                    @@@
+                                                -->
+                                                <button class="btn-view02 on" type="button">
+                                                    전체
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    입금만
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    출금만
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="myPage-bg-innerBox">
+                                        <div class="box-item02-th">
+                                            거래구분
+                                        </div>
+                                        <div class="box-item02-td">
+                                            <div class="box-item02-btn">
+                                                <!-- 
+                                                    @@@
+                                                    선택시 on 클래스 붙음
+                                                    <button class="btn-view02 on">
+                                                    @@@
+                                                -->
+                                                <button class="btn-view02 on" type="button">
+                                                    전체
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    구매
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    예치금
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    당첨금
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="myPage-bg-grid01 span2">
+                                    <div class="myPage-bg-innerBox align-start">
+                                        <div class="box-item02-th">
+                                            복권별 조회
+                                        </div>
+                                        <div class="box-item02-td">
+                                            <div class="box-item02-btn">
+                                                <!-- 
+                                                    @@@
+                                                    선택시 on 클래스 붙음
+                                                    <button class="btn-view02 on">
+                                                    @@@
+                                                -->
+                                                <button class="btn-view02 on" type="button">
+                                                    전체
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    로또6/45
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    연금복권720+
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    파워볼
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    스피드키노
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    캐치미
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    메가빙고
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    트리플럭
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    트레져헌터
+                                                </button>
+                                                <button class="btn-view02" type="button">
+                                                    더블잭마이더스
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-wrap02 mt-30">
+                            <button class="btn-rec01" type="button">
+                                검색
+                            </button>
+                        </div>
+                    </form>
+                        <!-- 조회 결과 테이블 -->
+                        <div class="myPage-amount-box">
+                            <div class="tbl-info-dateWrap">
+                                <div class="tbl-info-date">
+                                    <span class="st-date">2024.07.10</span>&nbsp;~&nbsp;<span class="end-date">2024.07.30</span>
+                                </div>
+                                <div class="tbl-info-txt">
+                                    거래내역
+                                </div>
+                            </div>
+                            <div class="tbl-info-amountWrap">
+                                <div class="income-box">
+                                    입금계 :&nbsp;<span class="color-p">200,000</span>원
+                                </div>
+                                <div class="outcome-box">
+                                    출금계 :&nbsp;<span class="color-b">200,000</span>원
+                                </div>
+                                <div class="balance-box">
+                                    예치금 잔액 :&nbsp;<span class="color-black">200,000</span>원
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 게시판 바디 -->
+                        <div class="myPage-tbl02-wrap">
+                            <div class="myPage-line-tbl02">
+                                <ul class="tbl02-ul">
+                                    <li class="tbl02-li thead">
+                                        <div class="tbl02-num">번호</div>
+                                        <div class="tbl02-date">거래일시</div>
+                                        <div class="tbl02-in">입금</div>
+                                        <div class="tbl02-out">출금</div>
+                                        <div class="tbl02-balance">잔액</div>
+                                        <div class="tbl02-detail">상세내용</div>
+                                        <div class="tbl02-result">당첨결과</div>
+                                        <div class="tbl02-highAmount">고액당첨 여부</div>
+                                    </li>
+                                    <li class="tbl02-li tbody">
+                                        <div class="tbl02-num tbl-td">
+                                            <a class="tbl02-num-a tbl-txt" href="#">10</a>
+                                        </div>
+                                        <div class="tbl02-date tbl-td">
+                                            <a class="tbl02-date-a tbl-txt blinking" href="../html/mypage-detail.html">
+                                                2023.05.10&nbsp;<span class="color-gray">12:34:12</span>
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-in tbl-td">
+                                            <!-- 
+                                                @@입금 액이 없을 경우 : class 다름
+                                                <a class="tbl02-in-a tbl-txt not">
+                                            -->
+                                            <a class="tbl02-in-a tbl-txt not" href="#">-</a>
+                                        </div>
+                                        <div class="tbl02-out tbl-td">
+                                            <!-- 
+                                                @@출금 액이 없을 경우 : class 다름
+                                                <a class="tbl02-out-a tbl-txt not">
+                                            -->
+                                            <a class="tbl02-out-a tbl-txt" href="#">4,000</a>
+                                        </div>
+                                        <div class="tbl02-balance tbl-td">
+                                            <a class="tbl02-balance-a tbl-txt" href="#">234,000</a>
+                                        </div>
+                                        <div class="tbl02-detail tbl-td">
+                                            <a class="tbl02-detail-a tbl-txt" href="#">
+                                                스피드키노 1매 구매(55회차)
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-result tbl-td">
+                                        <!-- 
+                                            **당첨 결과에 따른 class
+                                            미확인 : <a class="tbl02-result-a tbl-txt unread">
+                                            당첨 : <a class="tbl02-result-a tbl-txt winning">
+                                            낙첨 : <a class="tbl02-result-a tbl-txt lose">
+                                            미추첨 : <a class="tbl02-result-a tbl-txt notyet">
+                                        -->
+                                            <a class="tbl02-result-a tbl-txt unread" href="#">미확인</a>
+                                        </div>
+                                        <div class="tbl02-highAmount tbl-td">
+                                            <a class="tbl02-highAmount-a tbl-txt" href="#">N</a>
+                                        </div>
+                                    </li>
+                                    <li class="tbl02-li tbody">
+                                        <div class="tbl02-num tbl-td">
+                                            <a class="tbl02-num-a tbl-txt" href="#">10</a>
+                                        </div>
+                                        <div class="tbl02-date tbl-td">
+                                            <a class="tbl02-date-a tbl-txt" href="#">
+                                                2023.05.10&nbsp;<span class="color-gray">12:34:12</span>
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-in tbl-td">
+                                            <a class="tbl02-in-a tbl-txt" href="#">4000</a>
+                                        </div>
+                                        <div class="tbl02-out tbl-td">
+                                            <!-- 
+                                                @@출금 액이 없을 경우 : class 다름
+                                                <a class="tbl02-out-a tbl-txt not">
+                                            -->
+                                            <a class="tbl02-out-a tbl-txt not" href="#">-</a>
+                                        </div>
+                                        <div class="tbl02-balance tbl-td">
+                                            <a class="tbl02-balance-a tbl-txt" href="#">234,000</a>
+                                        </div>
+                                        <div class="tbl02-detail tbl-td">
+                                            <a class="tbl02-detail-a tbl-txt" href="#">
+                                                스피드키노 1매 구매(55회차)
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-result tbl-td">
+                                        <!-- 
+                                            **당첨 결과에 따른 class
+                                            미확인 : <a class="tbl02-result-a tbl-txt unread">
+                                            당첨 : <a class="tbl02-result-a tbl-txt winning">
+                                            낙첨 : <a class="tbl02-result-a tbl-txt lose">
+                                            미추첨 : <a class="tbl02-result-a tbl-txt notyet">
+                                        -->
+                                            <a class="tbl02-result-a tbl-txt winning" href="#">당첨</a>
+                                        </div>
+                                        <div class="tbl02-highAmount tbl-td">
+                                            <a class="tbl02-highAmount-a tbl-txt" href="#">Y</a>
+                                        </div>
+                                    </li>
+                                    <li class="tbl02-li tbody">
+                                        <div class="tbl02-num tbl-td">
+                                            <a class="tbl02-num-a tbl-txt" href="#">10</a>
+                                        </div>
+                                        <div class="tbl02-date tbl-td">
+                                            <a class="tbl02-date-a tbl-txt" href="#">
+                                                2023.05.10&nbsp;<span class="color-gray">12:34:12</span>
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-in tbl-td">
+                                            <a class="tbl02-in-a tbl-txt" href="#">10,000</a>
+                                        </div>
+                                        <div class="tbl02-out tbl-td">
+                                            <a class="tbl02-out-a tbl-txt" href="#">4,000</a>
+                                        </div>
+                                        <div class="tbl02-balance tbl-td">
+                                            <a class="tbl02-balance-a tbl-txt" href="#">234,000</a>
+                                        </div>
+                                        <div class="tbl02-detail tbl-td">
+                                            <a class="tbl02-detail-a tbl-txt" href="#">
+                                                스피드키노 1매 구매(55회차)
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-result tbl-td">
+                                        <!-- 
+                                            **당첨 결과에 따른 class
+                                            미확인 : <a class="tbl02-result-a tbl-txt unread">
+                                            당첨 : <a class="tbl02-result-a tbl-txt winning">
+                                            낙첨 : <a class="tbl02-result-a tbl-txt lose">
+                                            미추첨 : <a class="tbl02-result-a tbl-txt notyet">
+                                        -->
+                                            <a class="tbl02-result-a tbl-txt lose" href="#">낙첨</a>
+                                        </div>
+                                        <div class="tbl02-highAmount tbl-td">
+                                            <a class="tbl02-highAmount-a tbl-txt" href="#">N</a>
+                                        </div>
+                                    </li>
+                                    <li class="tbl02-li tbody">
+                                        <div class="tbl02-num tbl-td">
+                                            <a class="tbl02-num-a tbl-txt" href="#">10</a>
+                                        </div>
+                                        <div class="tbl02-date tbl-td">
+                                            <a class="tbl02-date-a tbl-txt" href="#">
+                                                2023.05.10&nbsp;<span class="color-gray">12:34:12</span>
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-in tbl-td">
+                                            <a class="tbl02-in-a tbl-txt" href="#">10,000</a>
+                                        </div>
+                                        <div class="tbl02-out tbl-td">
+                                            <a class="tbl02-out-a tbl-txt" href="#">4,000</a>
+                                        </div>
+                                        <div class="tbl02-balance tbl-td">
+                                            <a class="tbl02-balance-a tbl-txt" href="#">234,000</a>
+                                        </div>
+                                        <div class="tbl02-detail tbl-td">
+                                            <a class="tbl02-detail-a tbl-txt" href="#">
+                                                스피드키노 1매 구매(55회차)
+                                            </a>
+                                        </div>
+                                        <div class="tbl02-result tbl-td">
+                                        <!-- 
+                                            **당첨 결과에 따른 class
+                                            미확인 : <a class="tbl02-result-a tbl-txt unread">
+                                            당첨 : <a class="tbl02-result-a tbl-txt winning">
+                                            낙첨 : <a class="tbl02-result-a tbl-txt lose">
+                                            미추첨 : <a class="tbl02-result-a tbl-txt notyet">
+                                        -->
+                                            <a class="tbl02-result-a tbl-txt notyet" href="#">미추첨</a>
+                                        </div>
+                                        <div class="tbl02-highAmount tbl-td">
+                                            <a class="tbl02-highAmount-a tbl-txt" href="#">N</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 페이지네이션 -->
+                        <nav class="board-page">
+                            <ul class="pagination-ul">
+                                <!-- 페이지 이동 화살표 -->
+                                <li class="page-item btn-arrow">
+                                    <a class="page-link" href="#">
+                                        <figure>
+                                            <img src="../img/icon/icon-dubble-left-arrow.svg">
+                                        </figure>
+                                    </a>
+                                </li>
+                                <!-- 페이지 이동 화살표 -->
+                                <li class="page-item btn-arrow">
+                                    <a class="page-link" href="#">
+                                        <figure>
+                                            <img src="../img/icon/icon-single-left-arrow.svg">
+                                        </figure>
+                                    </a>
+                                </li>
+                                <!-- 
+                                    해당페이지 일 경우  
+                                    <li class="page-item on">
+                                    on클래스 붙음
+                                -->
+                                <li class="page-item on"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item on"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <!-- 페이지 이동 화살표 -->
+                                <li class="page-item btn-arrow">
+                                    <a class="page-link" href="#">
+                                        <figure>
+                                            <img src="../img/icon/icon-single-right-arrow.svg">
+                                        </figure>
+                                    </a>
+                                </li>
+                                <!-- 페이지 이동 화살표 -->
+                                <li class="page-item btn-arrow">
+                                    <a class="page-link" href="#">
+                                        <figure>
+                                            <img src="../img/icon/icon-dubble-right-arrow.svg">
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- 하단 안내사항 -->
+                        <div class="myPage-bg-wrap mt-60 py-30">
+                            <div class="bg-titWrap">
+                                <div class="bg-info-tit">
+                                    <figure>
+                                        <img src="../img/icon/icon_check.svg">
+                                    </figure>
+                                    <span class="bg-info-txt">고액당첨 안내사항</span>
+                                </div>
+                            </div>
+                            <div class="bg-txtWrap">
+                                <div class="bg-txt">
+                                    당첨금 청구(또는 실명인증)버튼을 클릭하시면 본인 확인 절차를 통해 당첨되신 복권의 당첨금을 수령하실 수 있습니다.
+                                </div>
+                            </div>
+                            <ul class="info-ul">
+                                <li class="info-li">
+                                    <div class="info-dot">&#8226;</div>
+                                    <div class="info-detail">인터넷에서 구매한 로또6/45, 연금복권520, 인터넷복권의 고액당첨내역 및 실명인증/수령내역을 조회할 수 있습니다.</div>
+                                </li>
+                                <li class="info-li">
+                                    <div class="info-dot">&#8226;</div>
+                                    <div class="info-detail">로또6/45는 <span class="color-p">실명인증을 후 복권번호를 확인하고, 은행에 방문하여 지급요청</span>을 할 수 있습니다.</div>
+                                </li>
+                            </ul>
+                            <div class="bg-txtWrap">
+                                <div class="bg-txt">
+                                    고액 당첨 수령 절차는 당첨자 가이드를 확인해 주시기 바랍니다.
+                                </div>
+                                <button class="btn-pill01" type="button">당첨자 가이드 바로가기</button>
+                            </div>
+                        </div>   
+                    </div>
+                    <!-- 나의 복권 가계부 end -->
+                </div>
+            </div>
+        </div>
+        <div class="endBox-mb"></div>
+    </div>
+
+
+
+
+<!-- =========== 마이페이지 end =========== -->
+
+<!-- =========== footer =========== -->
+    <footer id="footer" class="footer">
+        <div class="f-wrap">
+            <!-- inbox-left -->
+            <div class="f-inbox inbox01">
+                <!-- ===== logo ===== -->
+                <h1 id="d-logo" class="logo">
+                    <a href="#">
+                        <img src="../img/main_img/logo_dong.svg">
+                    </a>
+                </h1>
+                <!-- //===== logo ===== -->
+                <!-- ===== footer-gnb ===== -->
+                <nav id="f-gnb" class="f-gnb-area">
+                    <ul class="f-gnb-box">
+                        <li class="f-gnb-li">
+                            <a class="f-gnb-a">
+                                이용약관
+                            </a>
+                        </li>
+                        <li class="f-gnb-li">
+                            <a class="f-gnb-a">
+                                개인정보 처리방침
+                            </a>
+                        </li>
+                        <li class="f-gnb-li">
+                            <a class="f-gnb-a">
+                                인쇄복권당첨금지급기준
+                            </a>
+                        </li>
+                        <li class="f-gnb-li">
+                            <a class="f-gnb-a">
+                                불법사행행위신고센터
+                            </a>
+                        </li>
+                        <li class="f-gnb-li">
+                            <a class="f-gnb-a">
+                                온라인복권 신규판매인 인터넷 신청
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- //===== footer-gnb ===== -->
+                <!-- ===== company-info ===== -->
+                <ul class="f-info-box d-caption-txt1">
+                    <li class="f-info-li">
+                        수탁사업자 (주)동행복권
+                    </li>
+                    <li class="f-info-li">
+                        주소 : 06719 서울 서초구 남부순환로 2423 한원빌딩 4층
+                    </li>
+                    <li class="f-info-li">
+                        고객문의 1588-6450
+                    </li>
+                    <li class="f-info-li">
+                        FAX 02-6933-3063
+                    </li>
+                    <li class="f-info-li">
+                        대표자 : 조형섭, 홍덕기
+                    </li>
+                    <li class="f-info-li">
+                        사업자등록번호 866-87-00833 
+                    </li>
+                    <li class="f-info-li">
+                        통신판매사업자번호 : 제2018 - 서울서초 - 2075호
+                    </li>
+                    <li class="f-info-li">
+                        <a class="f-info-a bsnss-info">
+                            사업자정보확인
+                        </a>
+                    </li>
+                </ul>
+                <!-- //===== company-info ===== -->
+                <!-- ===== copyright ===== -->
+                <div class="f-copyright">
+                    <p class="f-copy-p d-caption-txt1">본 홈페이지는 게시된 이메일 주소가 자동 수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하여 주시길 바랍니다.</p>
+                    <p class="f-copy-p d-caption-txt1">청소년은 복권을 구 매하거나 당첨금을 수령할 수 없습니다.</p>
+                    <p class="f-copy-p d-caption-txt2">Copyright (c) 2018 복권위원회&동행복권. All rights reserved</p>
+                </div>
+                <!-- //===== copyright ===== -->
+            </div>
+            <!-- inbox-right -->
+            <div class="f-inbox">
+                <div class="f-crtfied-box">
+                    <img src="../img/main_img/certified_mark.svg">
+                </div>
+            </div>
+        </div>      
+    </footer>
+<!-- //=========== footer =========== -->
+
+<!-- =========== quick menu =========== -->
+    <div id="quick" class="go-quick">
+        <ul class="quick-ul">
+            <li class="quick-li">
+                <button class="btn-quick" type="button">
+                    <span class="icon-quick"></span>
+                    <span class="txt-quick">동행클린센터</span>
+                </button>
+            </li>
+            <li class="quick-li">
+                <button class="btn-quick" type="button">
+                    <span class="icon-quick"></span>
+                    <span class="txt-quick">당첨자 가이드</span>
+                </button>
+            </li>
+            <li class="quick-li">
+                <button class="btn-quick" type="button">
+                    <span class="icon-quick"></span>
+                    <span class="txt-quick">미수령 당첨금</span>
+                </button>
+            </li>
+            <li class="quick-li">
+                <button class="btn-quick" type="button">
+                    <span class="icon-quick"></span>
+                    <span class="txt-quick">추첨방송 참관 신청</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="quick-pack">
+        <button class="btn-quick-pack btn-quick-toggle" type="button">
+            <span class="hidden">퀵버튼토글</span>
+        </button>
+        <button class="btn-quick-pack btn-goUp" type="button">
+            <span class="hidden">위로가기</span>
+        </button>
+    </div>
+<!-- //=========== quick menu =========== -->
+</body>
+</html>
+

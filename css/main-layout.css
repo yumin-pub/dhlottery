@@ -1,0 +1,5286 @@
+section {
+  width: 100%;
+}
+section .center-wrap {
+  max-width: 90rem;
+  margin: 0 auto 7.5rem;
+}
+section .center-wrap.d-instant-wrap {
+  margin-bottom: 0;
+}
+section .center-wrap.d-lottery-wrap {
+  margin-bottom: 0px;
+}
+section .center-wrap.d-intrvw-wrap {
+  margin-bottom: 0px;
+}
+section .center-wrap .tit-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.875rem;
+}
+section .center-wrap .tit-wrap .main-sub-title {
+  color: var(--d-fc1);
+  font-family: "GmarketSans";
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+}
+section .center-wrap .tit-wrap .main-sub-view {
+  display: none;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: var(--d-fc9);
+}
+
+.d-buyDirect {
+  display: none;
+}
+
+.d-lottery {
+  background-color: var(--d-bg8);
+  padding: 5rem 0;
+  margin-bottom: 7.5rem;
+}
+
+.lottery-box-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-template-rows: auto;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  row-gap: 1.875rem;
+}
+.lottery-box-wrap .lottery-box-text .box-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: var(--d-fc3);
+}
+.lottery-box-wrap .lottery-box-text .box-imgWrap {
+  margin-top: 6.25rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.lottery-box-wrap .lottery-box-text .box-imgWrap figure {
+  margin: 0 0 0;
+}
+.lottery-box-wrap .lottery-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc5);
+  background-color: var(--d-bg2);
+  padding: 1.875rem;
+  overflow: hidden;
+}
+.lottery-box-wrap .lottery-box.pt-30 {
+  padding: 0;
+  padding-top: 1.875rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper {
+  width: 400px;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--d-lc2);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-round {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 2.125rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-date {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 144px;
+  padding: 0 1rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 20px 40px;
+  grid-template-rows: max-content;
+  -moz-column-gap: 0.625rem;
+       column-gap: 0.625rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: var(--d-bg2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-0n {
+  background-color: var(--d-dc-0n);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-1n {
+  background-color: var(--d-dc-1n);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-2n {
+  background-color: var(--d-dc-2n);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-3n {
+  background-color: var(--d-dc-3n);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-4n {
+  background-color: var(--d-dc-4n);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.plus {
+  margin: 0.625rem 0 0;
+  width: 20px;
+  height: 20px;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+  margin-bottom: 0.375rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-winning-money {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0.25rem;
+  margin-right: 0.25rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-won {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+  margin-right: 0.5rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-unit {
+  margin-top: 0.5rem;
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01 {
+  flex: 1;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding: 18px 24px;
+  border-radius: 0.9375rem;
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  background-color: var(--d-primary1);
+  color: var(--d-bg2);
+  transition: all 0.2s linear;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01:hover {
+  background-color: var(--d-primary3);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+  background-color: var(--d-second5);
+  width: 100%;
+  color: var(--d-fc1);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+  background-color: var(--d-second8);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next.swiper-button-disabled {
+  opacity: 0.5;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next:hover::after {
+  background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icon/icon-btn-gallery-right.svg);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -164px;
+  left: -13px;
+  transition: all 0.2s linear;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev {
+  transition: all 0.2s linear;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.5;
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev:hover::after {
+  background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+}
+.lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icon/icon-btn-gallery-left.svg);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -164px;
+  left: -9px;
+  transition: all 0.2s linear;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper {
+  width: 400px;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--d-lc2);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-round {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 2.125rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-date {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 144px;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 0.75rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-tit {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  -moz-column-gap: 0.375rem;
+       column-gap: 0.375rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list.color-gray {
+  color: var(--d-fc3);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.pension-jo {
+  border: 3px solid var(--d-wf-pen);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-1n {
+  border: 3px solid var(--d-wf-1n);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-2n {
+  border: 3px solid var(--d-wf-2n);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-3n {
+  border: 3px solid var(--d-wf-3n);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-4n {
+  border: 3px solid var(--d-wf-4n);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-5n {
+  border: 3px solid var(--d-wf-5n);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-6n {
+  border: 3px solid var(--d-wf-6n);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .num-jo {
+  display: flex;
+  align-items: center;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+  margin-bottom: 0.375rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-month {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+  margin-right: 0.5rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-winning-money {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0.25rem;
+  margin-right: 0.25rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-year {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0.25rem;
+  margin-right: 0.25rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-won {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-unit {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01 {
+  flex: 1;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding: 18px 24px;
+  border-radius: 0.9375rem;
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  background-color: var(--d-primary1);
+  color: var(--d-bg2);
+  transition: all 0.2s linear;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01:hover {
+  background-color: var(--d-primary3);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+  background-color: var(--d-second5);
+  width: 100%;
+  color: var(--d-fc1);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+  background-color: var(--d-second8);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next.swiper-button-disabled {
+  opacity: 0.5;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next:hover::after {
+  background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icon/icon-btn-gallery-right.svg);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -164px;
+  left: -13px;
+  transition: all 0.2s linear;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev {
+  transition: all 0.2s linear;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.5;
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev:hover::after {
+  background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+}
+.lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icon/icon-btn-gallery-left.svg);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -164px;
+  left: -9px;
+  transition: all 0.2s linear;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap {
+  width: 100%;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head {
+  margin: 0 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--d-lc2);
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .head-round {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 2.125rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .main-main-tooltip {
+  position: relative;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-date {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  padding: 0 1rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 20px 40px;
+  grid-template-rows: max-content;
+  -moz-column-gap: 0.625rem;
+       column-gap: 0.625rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list.view-all-box {
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 104px;
+  -moz-column-gap: 0.4rem;
+       column-gap: 0.4rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--d-wf-6n);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.bonus {
+  background-color: var(--d-wf-4n);
+  color: var(--d-bg2);
+  border: 1px solid transparent;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.plus {
+  border: 1px solid transparent;
+  margin: 0.625rem 0 0;
+  width: 20px;
+  height: 20px;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll {
+  padding: 8px 14px 8px 32px;
+  color: var(--d-fc1);
+  border-radius: 2.5rem;
+  border: 1px solid var(--d-fc2);
+  background-color: var(--d-bg3);
+  background-image: url(../img/main_icon/icon-mainViewAll.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px center;
+  background-size: 0.875rem 0.875rem;
+  position: relative;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/main_img/img-viewAllBg.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 2.5rem 2.5rem;
+  position: absolute;
+  left: -2.55rem;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: default;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1.625rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+  margin-bottom: 0.375rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-winning-money {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0.25rem;
+  margin-right: 0.25rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-won {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+  margin-right: 0.5rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail {
+  background-color: var(--d-bg1);
+  padding: 1.875rem 0;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-txt {
+  text-align: center;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+  margin-bottom: 0.635rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-num {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  transform: rotate(0.03deg);
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0.3rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-won {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01 {
+  width: 50%;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding: 18px 24px;
+  border-radius: 0.9375rem;
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  background-color: var(--d-primary1);
+  color: var(--d-bg2);
+  transition: all 0.2s linear;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01:hover {
+  background-color: var(--d-primary3);
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2 {
+  background-color: var(--d-second5);
+  width: 100%;
+  color: var(--d-fc1);
+}
+.lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2:hover {
+  background-color: var(--d-second8);
+}
+
+.storeScrh-tit {
+  position: relative;
+}
+.storeScrh-tit .storeInfo-wrap {
+  position: absolute;
+  left: 175px;
+  bottom: 0;
+}
+
+.storeScrh-box {
+  border-radius: 6.25rem;
+  border: 3px solid var(--d-fc2);
+  padding: 1.5rem 2.5rem;
+  display: grid;
+  grid-template-columns: 62% 38%;
+  grid-template-rows: max-content;
+}
+.storeScrh-box .storeScrh-inbox01 {
+  padding-right: 5.375rem;
+  border-right: 1px solid var(--d-lc2);
+  display: grid;
+  grid-template-columns: 43px 45% 45%;
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.125rem;
+       column-gap: 1.125rem;
+}
+.storeScrh-box .storeScrh-inbox02 {
+  padding-left: 5.375rem;
+  display: grid;
+  grid-template-columns: 43px calc(100% - 43px);
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.125rem;
+       column-gap: 1.125rem;
+}
+.storeScrh-box .storeSrch-item .storeScrh-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 2.125rem;
+}
+.storeScrh-box .storeSrch-item .main-select-box {
+  border-radius: 6.25rem;
+}
+
+.instant-pcWrap {
+  max-width: 93.75rem;
+  margin: 0 auto;
+}
+.instant-pcWrap .instant-box-pc .swiper {
+  padding: 0 1.5rem;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box {
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc5);
+  padding: 0.875rem 1.875rem 1.25rem;
+  transition: all 0.2s linear;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box:hover {
+  border: 1px solid var(--d-primary1);
+  box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-head .lottery-name {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-head .round-num {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid var(--d-lc3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-img {
+  margin-top: 0.25rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-tail {
+  margin-top: 0.9375rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--d-lc1);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-tail .box-tail-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-tail .box-tail-row:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-tail .box-tail-row .tail-tit {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-tail .box-tail-row .tail-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-btnWrap {
+  margin-top: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-btnWrap .btn-pill01 {
+  padding: 10px 13px;
+  color: var(--d-fc1);
+  border-radius: 2.5rem;
+  border: 1px solid var(--d-lc3);
+  background-color: var(--d-bg2);
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  padding: 0.625rem 1.5rem;
+  transition: all 0.2s linear;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .swiper-wrapper .lottery-box .box-btnWrap .btn-pill01:hover {
+  border: 1px solid var(--d-fc1);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-next.swiper-button-disabled {
+  opacity: 0.5;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-next:hover::after {
+  background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-next::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icon/icon-btn-gallery-right.svg);
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  left: -13px;
+  transform: translateY(-50%);
+  transition: all 0.2s linear;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-prev {
+  transition: all 0.2s linear;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.5;
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-prev:hover::after {
+  background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+}
+.instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-prev::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/icon/icon-btn-gallery-left.svg);
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  transform: translateY(-50%);
+  transition: all 0.2s linear;
+}
+
+.instant-box-ul {
+  display: none;
+}
+
+.instant-box {
+  max-width: 90rem;
+  margin: 0 auto 7.5rem;
+}
+.instant-box .instant-tabWrap .offLine-store {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  row-gap: 1.875rem;
+  display: none;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box {
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc5);
+  padding: 0.875rem 1.875rem 1.25rem;
+  transition: all 0.2s linear;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box:hover {
+  border: 1px solid var(--d-primary1);
+  box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-head .lottery-name {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-head .round-num {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid var(--d-lc3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-img {
+  margin-top: 0.25rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail {
+  margin-top: 0.9375rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--d-lc1);
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row .tail-tit {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row .tail-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-btnWrap {
+  margin-top: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-btnWrap .btn-pill01 {
+  padding: 10px 13px;
+  color: var(--d-fc1);
+  border-radius: 2.5rem;
+  border: 1px solid var(--d-lc3);
+  background-color: var(--d-bg2);
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  padding: 0.625rem 1.5rem;
+  transition: all 0.2s linear;
+}
+.instant-box .instant-tabWrap .offLine-store .lottery-box .box-btnWrap .btn-pill01:hover {
+  border: 1px solid var(--d-fc1);
+}
+.instant-box .instant-tabWrap .onLine-store {
+  margin-top: 1.875rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box {
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc5);
+  padding: 1.5rem 1.875rem 1.25rem;
+  transition: all 0.2s linear;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box:hover {
+  border: 1px solid var(--d-primary1);
+  box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-head .lottery-name {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-head .round-num {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid var(--d-lc3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-img {
+  margin-top: 0.25rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail {
+  margin-top: 0.9375rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--d-lc1);
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row .tail-tit {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row .tail-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap {
+  margin-top: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill01 {
+  padding: 10px 13px;
+  color: var(--d-fc1);
+  border-radius: 2.5rem;
+  border: 1px solid var(--d-lc3);
+  background-color: var(--d-bg2);
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.2s linear;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill01:hover {
+  border: 1px solid var(--d-fc1);
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill02 {
+  padding: 10px 38px 10px 20px;
+  color: var(--d-fc1);
+  border-radius: 2.5rem;
+  border: 1px solid var(--d-lc3);
+  background-color: var(--d-bg2);
+  background-image: url(../img/main_icon/icon_arrow_right.svg);
+  background-repeat: no-repeat;
+  background-position: 76px center;
+  background-size: 0.875rem 0.875rem;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  transition: all 0.2s linear;
+}
+.instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill02:hover {
+  border: 1px solid var(--d-fc1);
+}
+.instant-box .instant-tabWrap .view-instant {
+  display: none;
+}
+
+.d-winner.mt-240 {
+  margin-top: 240px;
+}
+
+.winner-box {
+  border-radius: 6.25rem;
+  border: 3px solid var(--d-fc2);
+  padding: 1.5rem 2.5rem;
+  position: relative;
+  background-color: var(--d-bg2);
+}
+.winner-box::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/main_img/img-winnerShort.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -182.5px;
+  right: 146px;
+  width: 180px;
+  height: 180px;
+}
+.winner-box .swiper.winnerShort {
+  width: 100%;
+  height: 40px;
+}
+.winner-box .swiper.winnerShort .inshort-item {
+  display: grid;
+  grid-template-columns: 13% 17% 53% 17%;
+  grid-template-rows: max-content;
+}
+.winner-box .swiper.winnerShort .inshort-item .game-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 0.875rem;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9875rem;
+  line-height: 1.5rem;
+  color: var(--d-primary1);
+  border-radius: 2.5rem;
+  background-color: var(--d-second13);
+  margin-right: 1.25rem;
+}
+.winner-box .swiper.winnerShort .inshort-item .game-money {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9875rem;
+  line-height: 1.5rem;
+}
+.winner-box .swiper.winnerShort .inshort-item .game-money .money-tit {
+  color: var(--d-fc3);
+}
+.winner-box .swiper.winnerShort .inshort-item .winner-inshort {
+  padding-top: 3px;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.25rem;
+  line-height: 2.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.winner-box .swiper.winnerShort .inshort-item .mem-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9875rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+
+.cltre-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  row-gap: 1.875rem;
+}
+.cltre-box .cltre-item {
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc1);
+  box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--d-fc1);
+  text-decoration: none;
+}
+.cltre-box .cltre-item .cltre-item-txt .cltre-item-title {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  margin-bottom: 1.125rem;
+}
+.cltre-box .cltre-item .cltre-item-txt .cltre-item-detail {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.intrvw-boxWrap {
+  max-width: 90rem;
+  margin: 0 auto 7.5rem;
+}
+.intrvw-boxWrap .intrvw-box {
+  position: relative;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox {
+  background-color: var(--d-second1);
+  border-radius: 1.25rem;
+  padding: 1.875rem 1.875rem 7.625rem;
+  background-image: url(../img/main_img/img-intrvwBg01.svg);
+  background-repeat: no-repeat;
+  background-position: right 228px bottom 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item {
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  background-color: var(--d-second12);
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-name {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: var(--d-fc3);
+  margin-bottom: 1.125rem;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-money {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  transform: rotate(0.03deg);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 0.625rem;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-sub {
+  margin-top: 0.875rem;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.25rem;
+  line-height: 2.125rem;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-date {
+  text-align: right;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2) {
+  position: relative;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/main_img/img-intrvwBg02.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -144px;
+  left: 29px;
+  width: 122px;
+  height: 144px;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-btn {
+  background-image: url(../img/main_img/img-btnBg-right.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+}
+.intrvw-boxWrap .intrvw-box .intrvw-btn .btn-mainGo {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  padding: 52px 97px 30px 60px;
+  background-image: url(../img/main_icon/icon-btnBg.svg);
+  background-repeat: no-repeat;
+  background-position: right 33px top 43px;
+  background-size: 48px 48px;
+}
+
+.cstmer-box {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.cstmer-box .cstmer-inbox01 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  row-gap: 1.875rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail {
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc1);
+  box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail:hover {
+  color: var(--d-fc1);
+  text-decoration: none;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail .boxItem-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail .boxItem-txt .mo-clean-br {
+  display: none;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox {
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc1);
+  background-color: var(--d-bg4);
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-sns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.625rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-sns .boxSns-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-sns .boxSns-icon {
+  display: flex;
+  height: 1.75rem;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  background-color: var(--d-dc-y);
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 {
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  background-color: var(--d-primary1);
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a {
+  text-decoration: none;
+  color: var(--d-bg2);
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox {
+  background-image: url(../img/main_img/img-clean-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 12.25rem 0;
+  background-size: 6.25rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-title {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: var(--d-second1);
+  margin-bottom: 1.375rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  margin-bottom: 2.5rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-txt .pc-clean-br {
+  display: block;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-info {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+.cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-tel {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  transform: rotate(0.03deg);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.cstmer-box .cstmer-inbox02 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board {
+  flex: 1;
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc1);
+  overflow: hidden;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.625rem;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-title .board-name {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 0.875rem;
+       column-gap: 0.875rem;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li .board-sbjct {
+  color: var(--d-fc1);
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li .board-sbjct:hover {
+  color: var(--d-fc1);
+  text-decoration: none;
+}
+.cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li .board-date {
+  color: var(--d-fc3);
+}
+.cstmer-box .cstmer-tab-ul {
+  display: none;
+}
+
+.simplify-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-simplify-cont {
+  width: 100%;
+}
+.d-simplify-cont .center-wrap {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.d-simplify-cont .center-wrap .simplify-box {
+  border-radius: 1.25rem;
+  border: 1px solid var(--d-lc5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4.375rem 0;
+  position: relative;
+}
+.d-simplify-cont .center-wrap .simplify-box::after {
+  content: "";
+  background-image: url(../img/main_img/img-simplify-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.d-simplify-cont .center-wrap .simplify-box .this-week {
+  text-align: center;
+}
+.d-simplify-cont .center-wrap .simplify-box .this-week .this-week-round .round-num {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  transform: rotate(0.03deg);
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+}
+.d-simplify-cont .center-wrap .simplify-box .this-week .this-week-round .round-num .round-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+}
+.d-simplify-cont .center-wrap .simplify-box .this-week .today-date {
+  margin-top: 0.875rem;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+.d-simplify-cont .center-wrap .simplify-box .time-box {
+  width: 460px;
+  padding: 2.375rem 0;
+  background-color: var(--d-bg1);
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3.25rem;
+}
+.d-simplify-cont .center-wrap .simplify-box .time-box .time-txt {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: var(--d-fc3);
+}
+.d-simplify-cont .center-wrap .simplify-box .time-box .real-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "GmarketSans";
+  font-weight: 700;
+  transform: rotate(0.03deg);
+  font-size: 3.75rem;
+  line-height: 4.75rem;
+}
+.d-simplify-cont .center-wrap .simplify-box .time-box .time-info {
+  background-image: url(../img/main_img/img-simplify-tri.svg);
+  background-repeat: no-repeat;
+  background-position: left 4px center;
+  padding-left: 28px;
+  color: var(--d-fc1);
+  font-family: "GmarketSans";
+  font-weight: 500;
+  transform: rotate(0.03deg);
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  margin-top: 1.5rem;
+}
+.d-simplify-cont .center-wrap .simplify-box .time-box .time-info .boardcast {
+  color: var(--d-fc2);
+}
+
+@media (max-width: 1440px) {
+  section {
+    width: 100%;
+  }
+  section .center-wrap {
+    max-width: 90%;
+    margin: 0 auto 7.5rem;
+  }
+  section .center-wrap.d-instant-wrap {
+    margin-bottom: 0;
+  }
+  section .center-wrap.d-lottery-wrap {
+    margin-bottom: 0px;
+  }
+  section .center-wrap.d-intrvw-wrap {
+    margin-bottom: 0px;
+  }
+  .intrvw-boxWrap {
+    max-width: 90%;
+    margin: 0 auto 7.5rem;
+  }
+  .instant-pcWrap {
+    max-width: calc(90% + 3.75rem);
+    margin: 0 auto;
+  }
+  .instant-pcWrap .instant-box-pc .swiper {
+    padding: 0 1.5rem;
+  }
+  .instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store {
+    position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
+  }
+  .instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-next::after {
+    background-size: contain;
+    width: 2.75rem;
+    height: 2.75rem;
+    left: -8px;
+  }
+  .instant-pcWrap .instant-box-pc .swiper.offLine-store .btn-offline-store.swiper-button-prev::after {
+    background-size: contain;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+  .instant-box {
+    max-width: 90%;
+    margin: 0 auto 7.5rem;
+  }
+  .instant-box .instant-tabWrap .offLine-store {
+    display: none;
+  }
+  .instant-box .instant-tabWrap .onLine-store {
+    margin-top: 1.875rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box {
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    padding: 1.5rem 1.875rem 1.25rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box:hover {
+    border: 1px solid var(--d-primary1);
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-head .lottery-name {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-head .round-num {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid var(--d-lc3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-img {
+    margin-top: 0.25rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail {
+    margin-top: 0.9375rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--d-lc1);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row .tail-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row .tail-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap {
+    margin-top: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill01 {
+    padding: 10px 13px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-lc3);
+    background-color: var(--d-bg2);
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    padding: 0.625rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill01:hover {
+    border: 1px solid var(--d-fc1);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill02 {
+    padding: 10px 38px 10px 20px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-lc3);
+    background-color: var(--d-bg2);
+    background-image: url(../img/main_icon/icon_arrow_right.svg);
+    background-repeat: no-repeat;
+    background-position: 76px center;
+    background-size: 0.875rem 0.875rem;
+    padding: 0.625rem 26px 0.625rem 0.625rem;
+    background-position: left 60px center;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill02:hover {
+    border: 1px solid var(--d-fc1);
+  }
+}
+@media screen and (max-width: 1240px) {
+  section {
+    width: 100%;
+  }
+  section .center-wrap {
+    width: 100%;
+    max-width: unset;
+    padding: 1.875rem;
+    margin: 0 auto 3.75rem;
+  }
+  .intrvw-boxWrap {
+    max-width: 90%;
+    margin: 0 auto 3.75rem;
+  }
+  .intrvw-boxWrap .intrvw-box {
+    position: relative;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox {
+    background-color: var(--d-second1);
+    border-radius: 1.25rem;
+    padding: 1.875rem 1.875rem 7.625rem;
+    background-image: url(../img/main_img/img-intrvwBg01.svg);
+    background-repeat: no-repeat;
+    background-position: right 228px bottom 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item {
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+    background-color: var(--d-second12);
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-name {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: var(--d-fc3);
+    margin-bottom: 1.125rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-money {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 0.625rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-sub {
+    margin-top: 0.875rem;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-date {
+    text-align: right;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2) {
+    position: relative;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-intrvwBg02.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -144px;
+    left: 29px;
+    width: 122px;
+    height: 144px;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-btn {
+    background-image: url(../img/main_img/img-btnBg-right.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-btn .btn-mainGo {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    padding: 52px 97px 30px 60px;
+    background-image: url(../img/main_icon/icon-btnBg.svg);
+    background-repeat: no-repeat;
+    background-position: right 33px top 43px;
+    background-size: 48px 48px;
+  }
+  .d-lottery {
+    background-color: var(--d-bg8);
+    padding: 5rem 0;
+    margin-bottom: 7.5rem;
+  }
+  .lottery-box-wrap {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: max-content;
+    grid-template-rows: auto;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .lottery-box-wrap .lottery-box-text {
+    display: none;
+  }
+  .lottery-box-wrap .lottery-box {
+    width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    background-color: var(--d-bg2);
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+  .lottery-box-wrap .lottery-box.pt-30 {
+    padding: 0;
+    padding-top: 1.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper {
+    width: 400px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 144px;
+    padding: 0 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 20px 40px;
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.625rem;
+         column-gap: 0.625rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    color: var(--d-bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-0n {
+    background-color: var(--d-dc-0n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-1n {
+    background-color: var(--d-dc-1n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-2n {
+    background-color: var(--d-dc-2n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-3n {
+    background-color: var(--d-dc-3n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-4n {
+    background-color: var(--d-dc-4n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.plus {
+    margin: 0.625rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-unit {
+    margin-top: 0.5rem;
+    font-family: "Pretendard";
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01 {
+    flex: 1;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-right.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -160px;
+    left: -13px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev {
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-left.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -160px;
+    left: -9px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper {
+    width: 400px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 144px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 0.375rem;
+         column-gap: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list.color-gray {
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.pension-jo {
+    border: 3px solid var(--d-wf-pen);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-1n {
+    border: 3px solid var(--d-wf-1n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-2n {
+    border: 3px solid var(--d-wf-2n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-3n {
+    border: 3px solid var(--d-wf-3n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-4n {
+    border: 3px solid var(--d-wf-4n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-5n {
+    border: 3px solid var(--d-wf-5n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-6n {
+    border: 3px solid var(--d-wf-6n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .num-jo {
+    display: flex;
+    align-items: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-month {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-year {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-unit {
+    font-family: "Pretendard";
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01 {
+    flex: 1;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-right.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -160px;
+    left: -13px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev {
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-left.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -160px;
+    left: -9px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap {
+    width: 100%;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head {
+    margin: 0 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 0.25rem;
+         column-gap: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .head-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .main-main-tooltip {
+    position: relative;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    padding: 0 1rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 20px 40px;
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.625rem;
+         column-gap: 0.625rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list.view-all-box {
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 104px;
+    -moz-column-gap: 0.4rem;
+         column-gap: 0.4rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--d-wf-6n);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.bonus {
+    background-color: var(--d-wf-4n);
+    color: var(--d-bg2);
+    border: 1px solid transparent;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.plus {
+    border: 1px solid transparent;
+    margin: 0.625rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll {
+    padding: 8px 14px 8px 32px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-fc2);
+    background-color: var(--d-bg3);
+    background-image: url(../img/main_icon/icon-mainViewAll.svg);
+    background-repeat: no-repeat;
+    background-position: left 14px center;
+    background-size: 0.875rem 0.875rem;
+    position: relative;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-viewAllBg.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 2.5rem 2.5rem;
+    position: absolute;
+    left: -2.55rem;
+    top: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: default;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.625rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail {
+    background-color: var(--d-bg1);
+    padding: 1.875rem 0;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-txt {
+    text-align: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.635rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-num {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.3rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01 {
+    width: 50%;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+}
+@media screen and (max-width: 1024px) {
+  section {
+    width: 100%;
+  }
+  section .center-wrap {
+    width: 100%;
+    max-width: unset;
+    padding: 1.875rem;
+    margin: 0 auto 3.75rem;
+  }
+  section .center-wrap.d-instant-wrap {
+    padding-bottom: 0;
+    margin-bottom: 0px;
+  }
+  section .center-wrap.d-instant-wrap .tit-wrap {
+    margin-bottom: 0px;
+  }
+  section .center-wrap.d-lottery-wrap {
+    margin-bottom: 0px;
+  }
+  section .center-wrap.d-intrvw-wrap {
+    margin-bottom: 0px;
+  }
+  section .center-wrap .tit-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.75rem;
+  }
+  section .center-wrap .tit-wrap .main-sub-title {
+    color: var(--d-fc1);
+    font-family: "GmarketSans";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  section .center-wrap .tit-wrap .main-sub-view {
+    display: block;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: var(--d-fc9);
+  }
+  .d-buyDirect {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .d-buyDirect .d-buyDirect-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .d-buyDirect .d-buyDirect-wrap .buyDirect-ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    -moz-column-gap: 6px;
+         column-gap: 6px;
+    row-gap: 8px;
+    flex-wrap: wrap;
+    height: 32px;
+    overflow: hidden;
+    width: calc(100% - 2rem);
+  }
+  .d-buyDirect .d-buyDirect-wrap .buyDirect-ul .buyDirect-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: 0.25rem;
+    color: var(--d-primary1);
+  }
+  .d-buyDirect .d-buyDirect-wrap .buyDirect-ul .buyDirect-li .btn-go-buy {
+    padding: 8px 12px;
+    background-color: var(--d-bg1);
+    color: var(--d-fc3);
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    border-radius: 2.5rem;
+  }
+  .d-buyDirect .d-buyDirect-wrap .btn-viewMore {
+    background-image: url(../img/main_icon/icon-main-btn-open.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  }
+  .d-buyDirect .d-buyDirect-wrap .btn-viewMore::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/main_icon/btn-graient.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: -32px;
+  }
+  .d-buyDirect .d-buyDirect-wrap.open .buyDirect-ul {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .d-buyDirect .d-buyDirect-wrap.open .btn-viewMore {
+    background-image: url(../img/main_icon/icon-main-btn-close.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  }
+  .d-buyDirect .d-buyDirect-wrap.open .btn-viewMore::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/main_icon/btn-graient.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: -32px;
+  }
+  .d-lottery {
+    background-color: var(--d-bg8);
+    padding: 1rem 0;
+    margin-bottom: 7.5rem;
+  }
+  .lottery-box-wrap {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: max-content;
+    grid-template-rows: auto;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .lottery-box-wrap .lottery-box-text {
+    display: none;
+  }
+  .lottery-box-wrap .lottery-box {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    background-color: var(--d-bg2);
+    padding: 1rem;
+    overflow: hidden;
+  }
+  .lottery-box-wrap .lottery-box.pt-30 {
+    padding: 0;
+    padding-top: 1.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper {
+    width: 300px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 144px;
+    padding: 0rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list {
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px 35px 35px 15px 35px;
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.4rem;
+         column-gap: 0.4rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: var(--d-bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-0n {
+    background-color: var(--d-dc-0n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-1n {
+    background-color: var(--d-dc-1n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-2n {
+    background-color: var(--d-dc-2n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-3n {
+    background-color: var(--d-dc-3n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-4n {
+    background-color: var(--d-dc-4n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.plus {
+    margin: 0.625rem 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-unit {
+    margin-top: 0.5rem;
+    font-family: "Pretendard";
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01 {
+    flex: 1;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    padding: 18px 0px;
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-right.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -135px;
+    left: -13px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev {
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-left.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -135px;
+    left: -9px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper {
+    width: 300px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 144px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 0.375rem;
+         column-gap: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list.color-gray {
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.pension-jo {
+    border: 3px solid var(--d-wf-pen);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-1n {
+    border: 3px solid var(--d-wf-1n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-2n {
+    border: 3px solid var(--d-wf-2n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-3n {
+    border: 3px solid var(--d-wf-3n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-4n {
+    border: 3px solid var(--d-wf-4n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-5n {
+    border: 3px solid var(--d-wf-5n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-6n {
+    border: 3px solid var(--d-wf-6n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .num-jo {
+    display: flex;
+    align-items: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-month {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-year {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-unit {
+    font-family: "Pretendard";
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01 {
+    flex: 1;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    padding: 18px 0px;
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-right.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -135px;
+    left: -13px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev {
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-left.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -135px;
+    left: -9px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap {
+    width: 100%;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head {
+    margin: 0 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 0.25rem;
+         column-gap: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .head-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .main-main-tooltip {
+    position: relative;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    padding: 0rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list {
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px 35px 20px 35px;
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.625rem;
+         column-gap: 0.625rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list.view-all-box {
+    grid-template-columns: 35px 35px 35px 35px 35px 20px 84px;
+    -moz-column-gap: 0.4rem;
+         column-gap: 0.4rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--d-wf-6n);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.bonus {
+    background-color: var(--d-wf-4n);
+    color: var(--d-bg2);
+    border: 1px solid transparent;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.plus {
+    border: 1px solid transparent;
+    margin: 0.625rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll {
+    padding: 8px 10px 8px 20px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-fc2);
+    background-color: var(--d-bg3);
+    background-image: url(../img/main_icon/icon-mainViewAll.svg);
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 0.875rem 0.875rem;
+    position: relative;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-viewAllBg.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 2rem 2rem;
+    position: absolute;
+    left: -2rem;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    cursor: default;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.625rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail {
+    background-color: var(--d-bg1);
+    padding: 1.125rem 0;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-txt {
+    text-align: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.635rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-num {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0.3rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01 {
+    width: 50%;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .instant-pcWrap {
+    display: none;
+  }
+  .instant-box-ul {
+    margin-top: 1.875rem;
+    display: flex;
+    width: 100%;
+    max-width: unset;
+    padding: 0 1.875rem;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    border-bottom: 1px solid var(--d-lc7);
+  }
+  .instant-box-ul .instant-box-li {
+    flex: 1;
+    text-align: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-bottom: 0.625rem;
+  }
+  .instant-box-ul .instant-box-li.tagTab {
+    border-bottom: 2px solid var(--d-primary1);
+    color: var(--d-primary1);
+  }
+  .instant-box {
+    width: 100%;
+    max-width: unset;
+    padding: 1.875rem;
+    margin: 0 auto 3.75rem;
+  }
+  .instant-box .instant-tabWrap {
+    display: none;
+  }
+  .instant-box .instant-tabWrap.tagTab {
+    display: block;
+  }
+  .instant-box .instant-tabWrap.h-100 .offLine-store {
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: unset;
+  }
+  .instant-box .instant-tabWrap.h-100 .onLine-store {
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: unset;
+  }
+  .instant-box .instant-tabWrap.h-100 .view-instant {
+    display: none;
+  }
+  .instant-box .instant-tabWrap .offLine-store {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    row-gap: 1.875rem;
+    height: 39rem;
+    overflow: hidden;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box {
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    padding: 0.875rem 1.875rem 1.25rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box:hover {
+    border: 1px solid var(--d-primary1);
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-head .lottery-name {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-head .round-num {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid var(--d-lc3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-img {
+    margin-top: 0.25rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail {
+    margin-top: 0.9375rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--d-lc1);
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row .tail-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-tail .box-tail-row .tail-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-btnWrap {
+    margin-top: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-btnWrap .btn-pill01 {
+    padding: 10px 13px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-lc3);
+    background-color: var(--d-bg2);
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    padding: 0.625rem 1.5rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .offLine-store .lottery-box .box-btnWrap .btn-pill01:hover {
+    border: 1px solid var(--d-fc1);
+  }
+  .instant-box .instant-tabWrap .onLine-store {
+    margin-top: 1.875rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    row-gap: 1.875rem;
+    height: 39rem;
+    overflow: hidden;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box {
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    padding: 1.5rem 1.875rem 1.25rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box:hover {
+    border: 1px solid var(--d-primary1);
+    box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-head .lottery-name {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-head .round-num {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid var(--d-lc3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-img {
+    margin-top: 0.25rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail {
+    margin-top: 0.9375rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--d-lc1);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row .tail-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-tail .box-tail-row .tail-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap {
+    margin-top: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill01 {
+    padding: 10px 13px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-lc3);
+    background-color: var(--d-bg2);
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    padding: 0.625rem 1.25rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill01:hover {
+    border: 1px solid var(--d-fc1);
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill02 {
+    padding: 10px 38px 10px 20px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-lc3);
+    background-color: var(--d-bg2);
+    background-image: url(../img/main_icon/icon_arrow_right.svg);
+    background-repeat: no-repeat;
+    background-position: 76px center;
+    background-size: 0.875rem 0.875rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    transition: all 0.2s linear;
+  }
+  .instant-box .instant-tabWrap .onLine-store .lottery-box .box-btnWrap .btn-pill02:hover {
+    border: 1px solid var(--d-fc1);
+  }
+  .instant-box .instant-tabWrap .view-instant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--d-lc3);
+    border-radius: 0.625rem;
+    padding: 0.5rem 0;
+    position: relative;
+  }
+  .instant-box .instant-tabWrap .view-instant .view-instant-txt {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .instant-box .instant-tabWrap .view-instant figure {
+    margin: 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .instant-box .instant-tabWrap .view-instant::before {
+    content: "";
+    display: block;
+    background-image: url(../img/main_img/img-btn-instantBg.svg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 49px;
+    position: absolute;
+    left: 0;
+    top: -50px;
+  }
+  .storeScrh-tit {
+    position: relative;
+  }
+  .storeScrh-tit .storeInfo-wrap {
+    display: none;
+  }
+  .storeScrh-box {
+    border-radius: 6.25rem;
+    border: 3px solid var(--d-fc2);
+    padding: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: max-content;
+  }
+  .storeScrh-box .storeScrh-inbox01 {
+    padding-right: 2.5rem;
+    border-right: none;
+    display: grid;
+    grid-template-columns: 43px calc((100% - 43px) / 2) calc((100% - 43px) / 2);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .storeScrh-box .storeScrh-inbox02 {
+    padding-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 43px calc(100% - 60px);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.125rem;
+         column-gap: 1.125rem;
+  }
+  .storeScrh-box .storeSrch-item .storeScrh-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .storeScrh-box .storeSrch-item .main-select-box {
+    border-radius: 6.25rem;
+  }
+  .d-winner.mt-240 {
+    margin-top: 100px;
+  }
+  .winner-box {
+    border-radius: 6.25rem;
+    border: 3px solid var(--d-fc2);
+    padding: 1.5rem 2.5rem;
+    position: relative;
+    background-color: var(--d-bg2);
+  }
+  .winner-box::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-winnerShort.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -123.5px;
+    right: 600px;
+    width: 120px;
+    height: 120px;
+  }
+  .winner-box .swiper.winnerShort {
+    width: 100%;
+    height: 40px;
+  }
+  .winner-box .swiper.winnerShort .inshort-item {
+    margin-bottom: 0 !important;
+    display: grid;
+    grid-template-columns: 14% 17% 53% 16%;
+    grid-template-rows: max-content;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .game-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.5rem 0.875rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9875rem;
+    line-height: 1.5rem;
+    color: var(--d-primary1);
+    border-radius: 2.5rem;
+    background-color: var(--d-second13);
+    margin-right: 1.25rem;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .game-money {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9875rem;
+    line-height: 1.5rem;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .game-money .money-tit {
+    color: var(--d-fc3);
+  }
+  .winner-box .swiper.winnerShort .inshort-item .winner-inshort {
+    padding-top: 3px;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .mem-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9875rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .cltre-box .cltre-item .cltre-item-img figure img {
+    width: 8rem;
+  }
+  .intrvw-boxWrap {
+    width: 100%;
+    max-width: unset;
+    padding: 1.875rem;
+    margin: 0 auto 3.75rem;
+  }
+  .intrvw-boxWrap .intrvw-box {
+    position: relative;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox {
+    background-color: var(--d-second1);
+    border-radius: 1.25rem;
+    padding: 1.875rem 1.875rem 7.625rem;
+    background-image: url(../img/main_img/img-intrvwBg01.svg);
+    background-repeat: no-repeat;
+    background-position: right 228px bottom 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item {
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+    background-color: var(--d-second12);
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-name {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: var(--d-fc3);
+    margin-bottom: 1.125rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-money {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 0.625rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-sub {
+    margin-top: 0.875rem;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-date {
+    text-align: right;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2) {
+    position: relative;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-intrvwBg02.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -144px;
+    left: 29px;
+    width: 122px;
+    height: 144px;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-btn {
+    background-image: url(../img/main_img/img-btnBg-right.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-btn .btn-mainGo {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    padding: 52px 97px 30px 60px;
+    background-image: url(../img/main_icon/icon-btnBg.svg);
+    background-repeat: no-repeat;
+    background-position: right 33px top 43px;
+    background-size: 48px 48px;
+  }
+  .cstmer-box {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+  }
+  .cstmer-box.mo-cstmer {
+    display: block;
+  }
+  .cstmer-box .cstmer-inbox01 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    row-gap: 1rem;
+    margin-bottom: 1.875rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item01 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail {
+    padding: 1.5rem;
+    border-radius: 1.125rem;
+    border: 1px solid var(--d-lc5);
+    box-shadow: unset;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail:hover {
+    color: var(--d-fc1);
+    text-decoration: none;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail:last-child .boxItem-txt {
+    padding-bottom: 2.625rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail .boxItem-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.125rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item01 .boxItem-detail .boxItem-txt .mo-clean-br {
+    display: block;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox {
+    padding: 1.125rem;
+    border-radius: 1.125rem;
+    border: 1px solid var(--d-lc5);
+    background-color: var(--d-bg4);
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-sns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.625rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-sns .boxSns-txt {
+    color: var(--d-fc3);
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-sns .boxSns-icon {
+    display: flex;
+    height: 1.75rem;
+    -moz-column-gap: 6px;
+         column-gap: 6px;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item02 .d-sns-inbox .boxItem-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    background-color: var(--d-dc-y);
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 {
+    padding: 1.5rem;
+    border-radius: 1.125rem;
+    background-color: var(--d-primary1);
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a {
+    text-decoration: none;
+    color: var(--d-bg2);
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox {
+    background-image: url(../img/main_img/img-MO-clean-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right 1.125rem center;
+    background-size: auto;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-title {
+    display: none;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-txt .pc-clean-br {
+    display: none;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-info {
+    color: var(--d-second5);
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 0.9375rem;
+    margin-bottom: 0.625rem;
+  }
+  .cstmer-box .cstmer-inbox01 .cstmerBox-item03 .d-clean-a .d-clean-inbox .d-clean-tel {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+  .cstmer-box .cstmer-inbox02 {
+    display: block;
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board {
+    display: none;
+    padding: 0;
+    border-radius: 0;
+    border: unset;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board.tabTag {
+    display: block;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-title {
+    display: none;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul {
+    display: block;
+    row-gap: 1.25rem;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li {
+    display: block;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    width: 100%;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li .board-sbjct {
+    display: block;
+    color: var(--d-fc1);
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li .board-sbjct:hover {
+    color: var(--d-fc1);
+    text-decoration: none;
+  }
+  .cstmer-box .cstmer-inbox02 .cstmer-board .cstmer-board-content .board-content-ul .board-content-li .board-date {
+    display: block;
+    margin-top: 0.25rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: var(--d-fc4);
+  }
+  .cstmer-box .cstmer-tab-ul {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--d-lc7);
+    margin-bottom: 1rem;
+  }
+  .cstmer-box .cstmer-tab-ul .cstmer-tab-liWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    -moz-column-gap: 1.75rem;
+         column-gap: 1.75rem;
+  }
+  .cstmer-box .cstmer-tab-ul .cstmer-tab-liWrap .cstmer-tab-li {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-bottom: 0.625rem;
+  }
+  .cstmer-box .cstmer-tab-ul .cstmer-tab-liWrap .cstmer-tab-li.tabTag {
+    color: var(--d-primary1);
+    border-bottom: 2px solid var(--d-primary1);
+  }
+  .cstmer-box .cstmer-tab-ul .cstmer-go {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    padding-bottom: 0.625rem;
+    color: var(--d-fc9);
+  }
+}
+@media screen and (max-width: 760px) {
+  section {
+    width: 100%;
+  }
+  section .center-wrap {
+    width: 100%;
+    max-width: unset;
+    padding: 1rem 1.875rem 0;
+    margin: 0 auto 2rem;
+  }
+  section .center-wrap.d-instant-wrap {
+    margin-bottom: 0;
+  }
+  section .center-wrap.d-lottery-wrap {
+    margin-bottom: 0px;
+  }
+  section .center-wrap.d-intrvw-wrap {
+    margin-bottom: 0px;
+  }
+  section .center-wrap .tit-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  section .center-wrap .tit-wrap .main-sub-title {
+    color: var(--d-fc1);
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+  }
+  section .center-wrap .tit-wrap .main-sub-view {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: var(--d-fc9);
+  }
+  .d-lottery {
+    background-color: var(--d-bg8);
+    padding: 1rem 0;
+    margin-bottom: 7.5rem;
+  }
+  .lottery-box-wrap {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: max-content;
+    grid-template-rows: auto;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .lottery-box-wrap .lottery-box-text {
+    display: none;
+  }
+  .lottery-box-wrap .lottery-box {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    background-color: var(--d-bg2);
+    padding: 1rem 0 0;
+    overflow: hidden;
+  }
+  .lottery-box-wrap .lottery-box.pt-30 {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper {
+    width: 272px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-head .lt645-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding: 0rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 15px 30px;
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.2rem;
+         column-gap: 0.2rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: var(--d-bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-0n {
+    background-color: var(--d-dc-0n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-1n {
+    background-color: var(--d-dc-1n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-2n {
+    background-color: var(--d-dc-2n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-3n {
+    background-color: var(--d-dc-3n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.num-4n {
+    background-color: var(--d-dc-4n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.plus {
+    margin: 0.5rem 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-numBox .lt645-list .lt-ball.plus img {
+    width: 100%;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.375rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    margin-top: 0rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .lt645-winningInfo .info-winning-num .info-unit {
+    margin-top: 0rem;
+    font-family: "Pretendard";
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01 {
+    flex: 1;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    padding: 10px 0px;
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .swiper-wrapper .lt645-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-right.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -85px;
+    left: 0;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev {
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.lt645 .btn-lt645.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-left.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -85px;
+    left: -9px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper {
+    width: 240px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-head .wf720-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: unset;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-tit {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 0.1rem;
+         column-gap: 0.1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list.color-gray {
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.pension-jo {
+    border: 2px solid var(--d-wf-pen);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-1n {
+    border: 2px solid var(--d-wf-1n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-2n {
+    border: 2px solid var(--d-wf-2n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-3n {
+    border: 2px solid var(--d-wf-3n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-4n {
+    border: 2px solid var(--d-wf-4n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-5n {
+    border: 2px solid var(--d-wf-5n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .wf-ball.wf-6n {
+    border: 2px solid var(--d-wf-6n);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-numBox .wf720-list .wf720-num-list .num-jo {
+    display: flex;
+    align-items: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-month {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    margin-top: 0rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-year {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    margin-top: 0rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.375rem;
+    line-height: 2rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-unit {
+    transform: translateY(-2px);
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .wf720-winningInfo .info-winning-num .info-unit img {
+    width: 100%;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01 {
+    flex: 1;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    padding: 10px 0px;
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .swiper-wrapper .wf720-inbox .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-next::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-right.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -85px;
+    left: 0;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev {
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev.swiper-button-disabled {
+    opacity: 0.5;
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev:hover::after {
+    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+  }
+  .lottery-box-wrap .lottery-box .swiper.wf720 .btn-wf720.swiper-button-prev::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/icon/icon-btn-gallery-left.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -85px;
+    left: -9px;
+    transition: all 0.2s linear;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap {
+    width: 100%;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--d-lc2);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 0.25rem;
+         column-gap: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .head-round {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-wrap .main-tooltip {
+    margin: 0 0 0;
+    position: relative;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-head .head-date {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: unset;
+    padding: 0.5rem 0;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 15px 30px;
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.2rem;
+         column-gap: 0.2rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list.view-all-box {
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 70px;
+    -moz-column-gap: 0.2rem;
+         column-gap: 0.2rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--d-wf-6n);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.bonus {
+    background-color: var(--d-wf-4n);
+    color: var(--d-bg2);
+    border: 1px solid transparent;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.plus {
+    border: 1px solid transparent;
+    margin: 0.5rem 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .lottery-ball.plus img {
+    width: 100%;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll {
+    padding: 6px 6px 6px 16px;
+    color: var(--d-fc1);
+    border-radius: 2.5rem;
+    border: 1px solid var(--d-fc2);
+    background-color: var(--d-bg3);
+    background-image: url(../img/main_icon/icon-mainViewAll.svg);
+    background-repeat: no-repeat;
+    background-position: left 6px center;
+    background-size: 0.875rem 0.875rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 16px;
+    position: relative;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-numBox .numBox-list .btn-viewAll::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-viewAllBg.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 2rem 2rem;
+    position: absolute;
+    left: -2.2rem;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    cursor: default;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.125rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-txt {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-winning-money {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 0rem;
+    margin-right: 0.25rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-winningInfo .info-winning-num .info-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail {
+    background-color: var(--d-bg1);
+    padding: 1.125rem 0;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-txt {
+    text-align: center;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-bottom: 0.635rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-num {
+    font-family: "Pretendard";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 0rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .realtime-money .realtime-won {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01 {
+    width: 50%;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    padding: 18px 24px;
+    border-radius: 0.9375rem;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: var(--d-primary1);
+    color: var(--d-bg2);
+    padding: 10px 0px;
+    transition: all 0.2s linear;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01:hover {
+    background-color: var(--d-primary3);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2 {
+    background-color: var(--d-second5);
+    width: 100%;
+    color: var(--d-fc1);
+  }
+  .lottery-box-wrap .lottery-box .lottery-boxWrap .lottery-wrapper .lottery-inbox .lottery-tail .btn-mainRecWrap .btn-rec01.bg-2:hover {
+    background-color: var(--d-second8);
+  }
+  .storeScrh-tit {
+    position: relative;
+  }
+  .storeScrh-tit .storeInfo-wrap {
+    display: none;
+  }
+  .storeScrh-box {
+    border-radius: 1.125rem;
+    border: 1px solid var(--d-lc5);
+    padding: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: max-content;
+    row-gap: 0.625rem;
+  }
+  .storeScrh-box .storeScrh-inbox01 {
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: 43px calc((100% - 75px) / 2) calc((100% - 75px) / 2);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .storeScrh-box .storeScrh-inbox02 {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 43px calc(100% - 60px);
+    grid-template-rows: max-content;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  .storeScrh-box .storeSrch-item .storeScrh-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.125rem;
+  }
+  .storeScrh-box .storeSrch-item .main-select-box {
+    border-radius: 6.25rem;
+  }
+  .d-winner.mt-240 {
+    margin-top: 50px;
+  }
+  .winner-box {
+    border-radius: 1.125rem;
+    border: 1px solid var(--d-lc5);
+    padding: 1rem 1.5rem;
+    position: relative;
+    background-color: var(--d-bg2);
+  }
+  .winner-box::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/main_img/img-winnerShort.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: calc(-5rem - 1.5px);
+    right: 30px;
+    width: 5rem;
+    height: 5rem;
+  }
+  .winner-box .swiper.winnerShort {
+    width: 100%;
+    height: 9.5rem;
+  }
+  .winner-box .swiper.winnerShort .inshort-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: max-content;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .game-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.5rem 0.875rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9875rem;
+    line-height: 1.5rem;
+    color: var(--d-primary1);
+    border-radius: 2.5rem;
+    background-color: var(--d-second13);
+    margin-right: 0;
+    margin-bottom: 0.625rem;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .game-money {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.625rem;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .game-money .money-tit {
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--d-fc3);
+    transform: translateY(-1px);
+  }
+  .winner-box .swiper.winnerShort .inshort-item .winner-inshort {
+    margin-bottom: 1.125rem;
+    padding-top: 3px;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .winner-box .swiper.winnerShort .inshort-item .mem-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9875rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+  }
+  .cltre-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -moz-column-gap: 0.625rem;
+         column-gap: 0.625rem;
+    row-gap: 0.625rem;
+  }
+  .cltre-box .cltre-item {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    border: 1px solid var(--d-lc5);
+    box-shadow: unset;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .cltre-box .cltre-item .cltre-item-txt .cltre-item-title {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.125rem;
+  }
+  .cltre-box .cltre-item .cltre-item-txt .cltre-item-title .mo-br {
+    display: block;
+  }
+  .cltre-box .cltre-item .cltre-item-txt .cltre-item-detail {
+    display: none;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .cltre-box .cltre-item .cltre-item-txt .circle-btn-right {
+    display: none;
+  }
+  .cltre-box .cltre-item .cltre-item-img {
+    padding-left: calc(100% - 4rem);
+  }
+  .cltre-box .cltre-item .cltre-item-img .cltre-imgWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 0 0;
+  }
+  .cltre-box .cltre-item .cltre-item-img .cltre-imgWrap img {
+    width: 4rem;
+  }
+  .intrvw-boxWrap {
+    width: 100%;
+    max-width: unset;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+  .intrvw-boxWrap .intrvw-box {
+    position: relative;
+    background-color: var(--d-second1);
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox {
+    background-color: unset;
+    border-radius: 0;
+    padding: 1.125rem 1.125rem 5.5rem;
+    background-image: url(../img/main_img/img-intrvw-bg.svg);
+    background-repeat: no-repeat;
+    background-position: left 7px bottom;
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    grid-template-rows: max-content;
+    -moz-column-gap: 0.625rem;
+         column-gap: 0.625rem;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item {
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    background-color: var(--d-second12);
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-name {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--d-fc3);
+    margin-bottom: 1rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-quot {
+    margin: 0 0 0;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .game-money {
+    font-family: "GmarketSans";
+    font-weight: 700;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-sub {
+    margin-top: 0.875rem;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item .intrvw-date {
+    text-align: right;
+    font-family: "Pretendard";
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--d-fc3);
+    margin-top: 1.125rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2) {
+    position: relative;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-inbox .intrvw-item:nth-child(2)::before {
+    content: "";
+    display: none;
+    background-image: unset;
+    background-repeat: unset;
+    background-position: unset;
+    position: unset;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-btn {
+    background-image: unset;
+    background-repeat: unset;
+    background-size: unset;
+    position: absolute;
+    bottom: 0.125rem;
+    right: 1.125rem;
+  }
+  .intrvw-boxWrap .intrvw-box .intrvw-btn .btn-mainGo {
+    position: sticky;
+    bottom: 0px;
+    right: 0;
+    font-family: "GmarketSans";
+    font-weight: 500;
+    transform: rotate(0.03deg);
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    padding: 1rem 2.5rem 1.5rem 2rem;
+    background-image: url(../img/main_icon/icon-btnBg.svg);
+    background-repeat: no-repeat;
+    background-position: right 0 top 5px;
+    background-size: 2rem 2rem;
+  }
+}

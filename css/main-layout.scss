@@ -1,0 +1,4335 @@
+@import "../css/custom-mixin.scss";
+
+// main container 영역
+// 공통 영역 + 가운데 정렬 + 서브타이틀
+section {
+    // display: none;
+    width: 100%;
+    .center-wrap {
+        max-width: 90rem;
+        // 가로 1440px;
+        margin: 0 auto 7.5rem;
+        &.d-instant-wrap {
+            margin-bottom: 0;
+        }
+        &.d-lottery-wrap {
+            margin-bottom: 0px;
+        }
+        &.d-intrvw-wrap {
+            margin-bottom: 0px;
+        }
+        .tit-wrap {
+            @include flexBox(between, center);
+            margin-bottom: 1.875rem;
+            .main-sub-title {
+                color: var(--d-fc1);
+                font-family: 'GmarketSans';
+                font-weight: 700;
+                font-size: 1.75rem;
+                line-height: 1.75rem;
+            }
+            .main-sub-view {
+                display: none;
+                @include pre-4(0.875rem, 1rem);
+                color: var(--d-fc9);
+            }
+        }
+    }
+}
+
+// ========= 바로구매 start =========
+.d-buyDirect {
+    display: none;
+}
+// ========= 바로구매 end =========
+
+// ========= 추첨식 복권 start =========
+.d-lottery {
+    // display: none;
+    background-color: var(--d-bg8);
+    padding: 5rem 0;
+    margin-bottom: 7.5rem;    
+}
+.lottery-box-wrap {
+    @include gridBox(3);
+    grid-template-rows: auto;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+    .lottery-box-text {
+        // width: 460px;
+        .box-txt {
+            @include g-5(1.125rem, 1.875rem);
+            color: var(--d-fc3);
+        }
+        .box-imgWrap {
+            margin-top: 6.25rem; 
+            @include flexBox(center, end);
+            figure {
+                margin: 0 0 0;
+            }
+        }
+    }
+    .lottery-box {
+        // width: 460px;
+        @include flexBox(center, center);
+        flex-direction: column;
+        border-radius: 1.25rem;
+        @include border(var(--d-lc5));
+        background-color: var(--d-bg2);
+        padding: 1.875rem;
+        overflow: hidden;
+        &.pt-30 {
+            padding: 0;
+            padding-top: 1.875rem;
+        }
+        .swiper {
+            &.lt645 {
+                .swiper-wrapper {
+                    width: 400px;
+                    .lt645-inbox {
+                        .lt645-head {
+                            @include flexBox(start, center);
+                            flex-direction: column;
+                            padding-bottom: 1rem;
+                            border-bottom: 1px solid var(--d-lc2);
+                            .lt645-round {
+                                @include g-5(1.375rem, 2.125rem);
+   
+                            }
+                            .lt645-date {
+                                @include pre-4(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                        }
+                        .lt645-numBox {
+                            @include flexBox();
+                            height: 144px;
+                            padding: 0 1rem;
+                            .lt645-list {
+                                display: grid;
+                                grid-template-columns: 40px 40px 40px 40px 40px 40px 20px 40px;
+                                grid-template-rows: max-content;
+                                column-gap: 0.625rem;
+                                .lt-ball {
+                                    @include pre-7(1rem, 1.75rem);
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                    border-radius: 50%;
+                                    color: var(--d-bg2);
+                                    @include flexBox();
+                                    &.num-0n {
+                                        background-color: var(--d-dc-0n);
+                                    }
+                                    &.num-1n {
+                                        background-color: var(--d-dc-1n);
+                                    }
+                                    &.num-2n {
+                                        background-color: var(--d-dc-2n);
+                                    }
+                                    &.num-3n {
+                                        background-color: var(--d-dc-3n);
+                                    }
+                                    &.num-4n {
+                                        background-color: var(--d-dc-4n);
+                                    }
+                                    &.plus {
+                                        margin: .625rem 0 0;
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .lt645-winningInfo {
+                            @include flexBox();
+                            flex-direction: column;
+                            .info-txt {
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.375rem;
+                            }
+                            .info-winning-num {
+                                @include flexBox(center, start);
+                                .info-winning-money {
+                                    @include pre-7(2rem, 2rem);
+                                    margin-top: 0.25rem;
+                                    margin-right: 0.25rem;
+                                }
+                                .info-won {
+                                    @include g-5(1.875rem, 2.75rem);
+                                    margin-right: 0.5rem;
+                                }
+                                .info-unit {
+                                margin-top: 0.5rem;
+                                    @include pre-3(1.125rem, 1.625rem);
+                                }
+                            }
+   
+                        }
+                        .btn-mainRecWrap {
+                            margin-top: 1.25rem;
+                            @include flexBox(center, center);
+                            column-gap: 1rem;
+                            .btn-rec01 {
+                                flex: 1;
+                                column-gap: 1rem;
+                                @include btnSubmit01;
+                                @include hoverTrans();
+                                @include g-5(1.125rem, 1.75rem);
+                                &:hover {
+                                    background-color: var(--d-primary3);
+                                }
+                                &.bg-2 {
+                                    background-color: var(--d-second5);
+                                    width: 100%;
+                                    color: var(--d-fc1);
+                                    &:hover {
+                                        background-color: var(--d-second8);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-lt645 {
+                    &.swiper-button-next {
+                   
+                        &.swiper-button-disabled {
+                            opacity: .5;
+                        }
+                        &:hover {
+                            &::after {
+                                background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                            }
+                        }
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                            width: 3rem;
+                            height: 3rem;
+                            position: absolute;
+                            top: -164px;
+                            left: -13px;
+                            // transform: translateY(-50%);
+                            @include hoverTrans();
+                        }
+                    }
+                    &.swiper-button-prev {
+                        @include hoverTrans();
+                        &.swiper-button-disabled {
+                            opacity: .5;
+                        }
+                        &:hover {
+                            &::after {
+                                background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                            }
+                        }
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                            width: 3rem;
+                            height: 3rem;
+                            position: absolute;
+                            top: -164px;
+                            left: -9px;
+                            // transform: translateY(-50%);
+                            @include hoverTrans();
+                        }
+                    }
+                }
+            }
+            &.wf720 {
+                .swiper-wrapper {
+                    width: 400px;
+                    .wf720-inbox {
+                        .wf720-head {
+                            @include flexBox(start, center);
+                            flex-direction: column;
+                            padding-bottom: 1rem;
+                            border-bottom: 1px solid var(--d-lc2);
+                            .wf720-round {
+                                @include g-5(1.375rem, 2.125rem);
+   
+                            }
+                            .wf720-date {
+                                @include pre-4(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                        }
+                        .wf720-numBox {
+                            @include flexBox();
+                            flex-direction: column;
+                            height: 144px;
+                            .wf720-list {
+                                width: 100%;
+                                @include flexBox(between, center);
+                                flex-direction: row;
+                                margin-top: 0.75rem;
+                                .wf720-tit {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                }
+                                .wf720-num-list {
+                                    @include flexBox(end, center);
+                                    column-gap: 0.375rem;
+                                    &.color-gray {
+                                        color: var(--d-fc3);
+                                    }
+                                    .wf-ball {
+                                        @include g-7(1.125rem, 1.75rem);
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        @include flexBox();
+                                        &.pension-jo {
+                                            border: 3px solid var(--d-wf-pen);
+                                        }
+                                        &.wf-1n {
+                                            border: 3px solid var(--d-wf-1n);
+                                        }
+                                        &.wf-2n {
+                                            border: 3px solid var(--d-wf-2n);
+                                        }
+                                        &.wf-3n {
+                                            border: 3px solid var(--d-wf-3n);
+                                        }
+                                        &.wf-4n {
+                                            border: 3px solid var(--d-wf-4n);
+                                        }
+                                        &.wf-5n {
+                                            border: 3px solid var(--d-wf-5n);
+                                        }
+                                        &.wf-6n {
+                                            border: 3px solid var(--d-wf-6n);
+                                        }
+                                    }
+                                    .num-jo {
+                                        display: flex;
+                                        align-items: center;
+                                        // padding-left: 3px;
+                                        @include g-5(0.9375rem, 1.5rem);
+                                        color: var(--d-fc3);
+                                    }
+                                }
+                            }
+                        }
+                        .wf720-winningInfo {
+                            @include flexBox();
+                            flex-direction: column;
+                            .info-txt {
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.375rem;
+                            }
+                            .info-winning-num {
+                                @include flexBox(center, start);
+                                flex-direction: row;
+                                .info-month {
+                                    @include g-5(1.875rem, 2.75rem);
+                                    margin-right: 0.5rem;
+                                }
+                                .info-winning-money {
+                                    @include pre-7(2rem, 2rem);
+                                    margin-top: 0.25rem;
+                                    margin-right: 0.25rem;
+                                }
+                                .info-year {
+                                    @include pre-7(2rem, 2rem);
+                                    margin-top: 0.25rem;
+                                    margin-right: 0.25rem;
+                                }
+                                .info-won {
+                                    @include g-5(1.875rem, 2.75rem);
+                                }
+                                .info-unit {
+                                    @include pre-3(1.125rem, 1.625rem);
+                                }
+                            }
+   
+                        }
+                        .btn-mainRecWrap {
+                            margin-top: 1.25rem;
+                            @include flexBox(center, center);
+                            column-gap: 1rem;
+                            .btn-rec01 {
+                                flex: 1;
+                                column-gap: 1rem;
+                                @include btnSubmit01;
+                                @include hoverTrans();
+                                @include g-5(1.125rem, 1.75rem);
+                                &:hover {
+                                    background-color: var(--d-primary3);
+                                }
+                                &.bg-2 {
+                                    background-color: var(--d-second5);
+                                    width: 100%;
+                                    color: var(--d-fc1);
+                                    &:hover {
+                                        background-color: var(--d-second8);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-wf720 {
+                    &.swiper-button-next {
+                   
+                        &.swiper-button-disabled {
+                            opacity: .5;
+                        }
+                        &:hover {
+                            &::after {
+                                background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                            }
+                        }
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                            width: 3rem;
+                            height: 3rem;
+                            position: absolute;
+                            top: -164px;
+                            left: -13px;
+                            // transform: translateY(-50%);
+                            @include hoverTrans();
+                        }
+                    }
+                    &.swiper-button-prev {
+                        @include hoverTrans();
+                        &.swiper-button-disabled {
+                            opacity: .5;
+                        }
+                        &:hover {
+                            &::after {
+                                background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                            }
+                        }
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                            width: 3rem;
+                            height: 3rem;
+                            position: absolute;
+                            top: -164px;
+                            left: -9px;
+                            // transform: translateY(-50%);
+                            @include hoverTrans();
+                        }
+                    }
+                }
+            }
+
+        }
+        .lottery-boxWrap {
+            width: 100%;
+            .lottery-wrapper {
+                .lottery-inbox {
+                    .lottery-head {
+                        margin: 0 1.875rem;                            
+                        @include flexBox(start, center);
+                        flex-direction: column;
+                        padding-bottom: 1rem;
+                        border-bottom: 1px solid var(--d-lc2);
+                        .head-wrap {
+                            @include flexBox();
+                            column-gap: 0.25rem;
+                            .head-round {
+                                @include g-5(1.375rem, 2.125rem);
+                            }
+                            .main-main-tooltip {
+                                position: relative;
+                            }
+                        }
+                        .head-date {
+                            @include pre-4(0.9375rem, 1.5rem);
+                            color: var(--d-fc3);
+                        }
+                    }
+                    .lottery-numBox {
+                        @include flexBox();
+                        height: 88px;
+                        padding: 0 1rem;
+                        .numBox-list {
+                            display: grid;
+                            grid-template-columns: 40px 40px 40px 40px 40px 20px 40px;
+                            grid-template-rows: max-content;
+                            column-gap: 0.625rem;
+                            &.view-all-box {
+                                grid-template-columns: 40px 40px 40px 40px 40px 40px 104px;
+                                column-gap: 0.4rem;
+                            }
+                            .lottery-ball {
+                                @include pre-7(1.125rem, 1.75rem);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                border-radius: 50%;
+                                @include border(var(--d-wf-6n));
+                                @include flexBox();
+                                &.bonus {
+                                    background-color: var(--d-wf-4n);
+                                    color: var(--d-bg2);
+                                    @include border(transparent);
+                                }
+                                &.plus {
+                                    @include border(transparent);
+                                    margin: .625rem 0 0;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                           
+                            }
+                            .btn-viewAll {
+                                padding: 8px 14px 8px 32px;
+                                color: var(--d-fc1);
+                                border-radius: 2.5rem;
+                                border: 1px solid var(--d-fc2);
+                                background-color: var(--d-bg3);
+                                background-image: url(../img/main_icon/icon-mainViewAll.svg);
+                                background-repeat: no-repeat;
+                                background-position: left 14px center;
+                                background-size: 0.875rem 0.875rem;
+                                position: relative;
+                                &::before {
+                                    content: '';
+                                    display: inline-block;
+                                    background-image: url(../img/main_img/img-viewAllBg.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: right center;
+                                    background-size: 2.5rem 2.5rem;
+                                    position: absolute;
+                                    left: -2.55rem;
+                                    top: 0;
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                    cursor: default;
+                                }
+                            }
+                        }
+                    }
+                    .lottery-winningInfo {
+                        @include flexBox();
+                        flex-direction: column;
+                        margin-bottom: 1.625rem;
+                        .info-txt {
+                            @include g-5(0.9375rem, 1.5rem);
+                            color: var(--d-fc3);
+                            margin-bottom: 0.375rem;
+                        }
+                        .info-winning-num {
+                            @include flexBox(center, start);
+                            .info-winning-money {
+                                @include pre-7(2rem, 2rem);
+                                margin-top: 0.25rem;
+                                margin-right: 0.25rem;
+                            }
+                            .info-won {
+                                @include g-5(1.875rem, 2.75rem);
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                    .lottery-tail {
+                        background-color: var(--d-bg1);
+                        padding: 1.875rem 0;
+                        .realtime-txt {
+                            text-align: center;
+                            @include g-5(0.9375rem, 1.5rem);
+                            color: var(--d-fc3);
+                            margin-bottom: 0.635rem;
+                        }
+                        .realtime-money {
+                            @include flexBox(center, start);
+                            margin-bottom: 1.5rem;
+                            .realtime-num {
+                                @include g-7(2rem, 2rem);
+                                margin-top: 0.3rem;
+                            }
+                            .realtime-won {
+                                @include g-5(1.875rem, 2.75rem);
+                            }
+                        }
+                        .btn-mainRecWrap {
+                            margin-top: 1.25rem;
+                            @include flexBox(center, center);
+                            column-gap: 1rem;
+                            .btn-rec01 {
+                                width: 50%;
+                                column-gap: 1rem;
+                                @include btnSubmit01;
+                                @include hoverTrans();
+                                @include g-5(1.125rem, 1.75rem);
+                                &:hover {
+                                    background-color: var(--d-primary3);
+                                }
+                                &.bg-2 {
+                                    background-color: var(--d-second5);
+                                    width: 100%;
+                                    color: var(--d-fc1);
+                                    &:hover {
+                                        background-color: var(--d-second8);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+// ========= 추첨식 복권 end =========
+
+
+
+// ========= 판매점 검색 start =========
+.storeScrh-tit {
+    position: relative;
+    .storeInfo-wrap {
+        position: absolute;
+        left: 175px;
+        bottom: 0;
+    }
+}
+.storeScrh-box {
+    border-radius: 6.25rem;
+    border: 3px solid var(--d-fc2);
+    padding: 1.5rem 2.5rem;
+    display: grid;
+    grid-template-columns: 62% 38%;
+    grid-template-rows: max-content;
+    .storeScrh-inbox01 {
+        padding-right: 5.375rem;
+        border-right: 1px solid var(--d-lc2);
+        display: grid;
+        grid-template-columns:43px 45% 45%;
+        grid-template-rows: max-content;
+        column-gap: 1.125rem;
+
+    }
+    .storeScrh-inbox02 {
+        padding-left: 5.375rem;
+        display: grid;
+        grid-template-columns: 43px calc(100% - 43px);
+        grid-template-rows: max-content;
+        column-gap: 1.125rem;
+    }
+    .storeSrch-item {
+        .storeScrh-item-head {
+            @include flexBox(start, center);
+            @include g-5(1.375rem, 2.125rem);
+        }
+        .main-select-box {
+            // overflow: hidden;
+            border-radius: 6.25rem;
+        }
+
+    }
+}
+// ========= 판매점 검색 end =========
+
+// ========= 즉석식 복권 start =========
+.instant-pcWrap {
+    // display: none;
+    max-width: 93.75rem;
+    // 스와이퍼에서 좌우 1.5rem 패딩된 값 포함
+    margin: 0 auto;
+    .instant-box-pc {
+        .swiper {
+            padding: 0 1.5rem;
+            &.offLine-store {
+                .swiper-wrapper {
+                    .lottery-box {
+                        border-radius: 1.25rem;
+                        @include border(var(--d-lc5));
+                        padding: 0.875rem 1.875rem 1.25rem;
+                        @include hoverTrans;
+                        &:hover {
+                            @include border(var(--d-primary1));
+                            @include boxShadow;
+                        }
+                        .box-head {
+                            @include flexBox(between, center);
+                            .lottery-name {
+                                @include g-5(1.125rem, 1.875rem);
+                            }
+                            .round-num {
+                                width: 3rem;
+                                height: 3rem;
+                                border-radius: 50%;
+                                @include border(var(--d-lc3));
+                                @include flexBox();
+                                @include pre-4(0.9375rem, 1.25rem);
+                            }
+                        }
+                        .box-img {
+                            margin-top: 0.25rem;
+                            border-radius: 0.625rem;
+                            overflow: hidden;
+                            img {
+                                object-fit: cover;
+                                width: 100%;
+                            }
+                        }
+                        .box-tail {
+                            margin-top: 0.9375rem;
+                            padding-bottom: 1.25rem;
+                            border-bottom: 1px solid var(--d-lc1);
+                            .box-tail-row {
+                                &:not(:last-child) {
+                                    margin-bottom: 0.5rem;
+                                }
+                                @include flexBox(between, center);
+                                .tail-tit {
+                                    @include g-5(1rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                                .tail-txt {
+                                    @include g-5(1rem, 1.5rem);
+                                }
+                            }
+                        }
+                        .box-btnWrap {
+                            margin-top: 0.875rem;
+                            @include flexBox();
+                            column-gap: 0.5rem;
+                            .btn-pill01 {
+                                @include btnPill-01();
+                                @include pre-4(0.9375rem, 1.5rem);
+                                padding: 0.625rem 1.5rem;
+                                @include hoverTrans;
+                                &:hover {
+                                    border: 1px solid var(--d-fc1);
+                                }
+                            }
+                        }                  
+                    }
+                }
+                // 즉석식 판매점 스와이퍼 버튼
+                .btn-offline-store {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    // z-index: 1200;
+                    &.swiper-button-next {
+                       
+                        &.swiper-button-disabled {
+                            opacity: .5;
+                        }
+                        &:hover {
+                            &::after {
+                                background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                            }
+                        }
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                            background-repeat: no-repeat;
+                            width: 3rem;
+                            height: 3rem;
+                            position: absolute;
+                            top: 50%;
+                            left: -13px;
+                            transform: translateY(-50%);
+                            @include hoverTrans();
+                        }
+                    }
+                    &.swiper-button-prev {
+                        @include hoverTrans();
+                        &.swiper-button-disabled {
+                            opacity: .5;
+                        }
+                        &:hover {
+                            &::after {
+                                background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                            }
+                        }
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                            background-repeat: no-repeat;
+                            width: 3rem;
+                            height: 3rem;
+                            position: absolute;
+                            top: 50%;
+                            left: -9px;
+                            transform: translateY(-50%);
+                            @include hoverTrans();
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.instant-box-ul {
+    display:none;
+}
+.instant-box {
+    // display: none;
+    max-width: 90rem;
+    // 가로 1500px;
+    margin: 0 auto 7.5rem;
+
+    .instant-tabWrap {
+        .offLine-store {
+            @include gridBox(4);
+            column-gap: 1.875rem;
+            row-gap: 1.875rem;
+            display: none;
+            .lottery-box {
+                border-radius: 1.25rem;
+                @include border(var(--d-lc5));
+                padding: 0.875rem 1.875rem 1.25rem;
+                @include hoverTrans;
+                &:hover {
+                    @include border(var(--d-primary1));
+                    @include boxShadow;
+                }
+                .box-head {
+                    @include flexBox(between, center);
+                    .lottery-name {
+                        @include g-5(1.125rem, 1.875rem);
+                    }
+                    .round-num {
+                        width: 3rem;
+                        height: 3rem;
+                        border-radius: 50%;
+                        @include border(var(--d-lc3));
+                        @include flexBox();
+                        @include pre-4(0.9375rem, 1.25rem);
+                    }
+                }
+                .box-img {
+                    margin-top: 0.25rem;
+                    border-radius: 0.625rem;
+                    overflow: hidden;
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+                .box-tail {
+                    margin-top: 0.9375rem;
+                    padding-bottom: 1.25rem;
+                    border-bottom: 1px solid var(--d-lc1);
+                    .box-tail-row {
+                        &:not(:last-child) {
+                            margin-bottom: 0.5rem;
+                        }
+                        @include flexBox(between, center);
+                        .tail-tit {
+                            @include g-5(1rem, 1.5rem);
+                            color: var(--d-fc3);
+                        }
+                        .tail-txt {
+                            @include g-5(1rem, 1.5rem);
+                        }
+                    }
+                }
+                .box-btnWrap {
+                    margin-top: 0.875rem;
+                    @include flexBox();
+                    column-gap: 0.5rem;
+                    .btn-pill01 {
+                        @include btnPill-01();
+                        @include pre-4(0.9375rem, 1.5rem);
+                        padding: 0.625rem 1.5rem;
+                        @include hoverTrans;
+                        &:hover {
+                            border: 1px solid var(--d-fc1);
+                        }
+                    }
+                }                  
+            }
+        }
+        .onLine-store {
+            margin-top: 1.875rem;
+            @include gridBox(4);
+            column-gap: 1.875rem;
+            .lottery-box {
+                border-radius: 1.25rem;
+                @include border(var(--d-lc5));
+                padding: 1.5rem 1.875rem 1.25rem;
+                @include hoverTrans;
+                &:hover {
+                    @include border(var(--d-primary1));
+                    @include boxShadow;
+                }
+                .box-head {
+                    @include flexBox(between, center);
+                    .lottery-name {
+                        @include g-5(1.125rem, 1.875rem);
+                    }
+                    .round-num {
+                        width: 3rem;
+                        height: 3rem;
+                        border-radius: 50%;
+                        @include border(var(--d-lc3));
+                        @include flexBox();
+                        @include pre-4(0.9375rem, 1.25rem);
+                    }
+                }
+                .box-img {
+                    margin-top: 0.25rem;
+                    border-radius: 0.625rem;
+                    overflow: hidden;
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+                .box-tail {
+                    margin-top: 0.9375rem;
+                    padding-bottom: 1.25rem;
+                    border-bottom: 1px solid var(--d-lc1);
+                    .box-tail-row {
+                        &:not(:last-child) {
+                            margin-bottom: 0.5rem;
+                        }
+                        @include flexBox(between, center);
+                        .tail-tit {
+                            @include g-5(1rem, 1.5rem);
+                            color: var(--d-fc3);
+                        }
+                        .tail-txt {
+                            @include g-5(1rem, 1.5rem);
+                        }
+                    }
+                }
+                .box-btnWrap {
+                    margin-top: 0.875rem;
+                    @include flexBox();
+                    column-gap: 0.5rem;
+                    .btn-pill01 {
+                        @include btnPill-01();
+                        @include pre-4(0.9375rem, 1.5rem);
+                        padding: 0.625rem 1.25rem;
+                        @include hoverTrans;
+                        &:hover {
+                            border: 1px solid var(--d-fc1);
+                        }
+                    }
+                    .btn-pill02 {
+                        @include btnPill-02();
+                        @include pre-4(0.9375rem, 1.5rem);
+                        // padding: 0.625rem 1.5rem;
+                        @include hoverTrans;
+                        &:hover {
+                            border: 1px solid var(--d-fc1);
+                        }
+                    }
+                }                  
+            }
+        }
+        .view-instant {
+            display: none;
+        }
+    }
+}
+// ========= 즉석식 복권 end =========
+
+// ========= 당첨 소감 한마디 start =========
+.d-winner {
+    &.mt-240 {
+        margin-top: 240px;
+    }
+}
+.winner-box {
+    border-radius: 6.25rem;
+    border: 3px solid var(--d-fc2);
+    padding: 1.5rem 2.5rem;
+    position: relative;
+    background-color: var(--d-bg2);
+    &::before {
+        content: '';
+        display: inline-block;
+        background-image: url(../img/main_img/img-winnerShort.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: -182.5px;
+        right: 146px;
+        width: 180px;
+        height: 180px;
+    }
+    .swiper {
+        &.winnerShort {
+            width: 100%;
+            height: 40px;
+            .inshort-item {
+                display: grid;
+                grid-template-columns: 13% 17% 53% 17%;
+                grid-template-rows: max-content;
+                .game-name {
+                    @include flexBox(center, center);
+                    width: fit-content;
+                    padding: 0.5rem 0.875rem;
+                    @include pre-4(0.9875rem, 1.5rem);
+                    color: var(--d-primary1);
+                    border-radius: 2.5rem;
+                    background-color: var(--d-second13);
+                    margin-right: 1.25rem;
+                }
+                .game-money {
+                    @include flexBox(start, center);
+                    @include g-5(0.9875rem, 1.5rem);
+                    .money-tit {
+                        color: var(--d-fc3);
+                    }
+                }
+                .winner-inshort {
+                    padding-top: 3px;
+                    // @include flexBox(start, center);
+                    @include g-5(1.25rem, 2.125rem);
+                    @include ellipsis(1);
+                }
+                .mem-info {
+                    @include flexBox(end, center);
+                    column-gap: 1.875rem;
+                    @include pre-4(0.9875rem, 1.5rem);
+                    color: var(--d-fc3);
+                }
+            }
+        }
+    }
+}
+// ========= 당첨 소감 한마디 end =========
+
+// ========= 건전한 복권문화 영역 start =========
+.cltre-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+    .cltre-item {
+        padding: 1.875rem;
+        border-radius: 1.25rem;
+        border: 1px solid var(--d-lc1);
+        box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03) ;
+        @include flexBox(between, center);
+        color: var(--d-fc1);
+        text-decoration: none;
+        .cltre-item-txt {
+            .cltre-item-title {
+                @include g-5( 1.375rem, 1.875rem);
+                margin-bottom: 1.125rem;
+            }
+            .cltre-item-detail {
+                @include g-5(0.9375rem, 1.5rem);
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+// ========= 건전한 복권문화 영역 end= ========
+
+// =========== 인쇄복권 1등 당첨자 인터뷰 start ===========
+.intrvw-boxWrap {
+    max-width: 90rem;
+    // 가로 1440px;
+    margin: 0 auto 7.5rem;
+    .intrvw-box {
+        position: relative;
+   
+        .intrvw-inbox {
+            background-color: var(--d-second1);
+            border-radius: 1.25rem;
+            padding: 1.875rem 1.875rem 7.625rem;
+            background-image: url(../img/main_img/img-intrvwBg01.svg);
+            background-repeat: no-repeat;
+            background-position: right 228px bottom 0;
+            @include gridBox(4);
+            column-gap: 1.875rem;
+            .intrvw-item {
+                padding: 1.875rem;
+                border-radius: 1.25rem;
+                background-color: var(--d-second12);
+                .game-name {
+                    @include g-5(1.125rem, 1.875rem);
+                    color: var(--d-fc3);
+                    margin-bottom: 1.125rem;
+                }
+                .game-money {
+                    @include g-7(1.25rem, 1.5rem);
+                    margin-top: 0.625rem;
+                }
+                .intrvw-sub {
+                    margin-top: 0.875rem;
+                    @include g-5(1.25rem, 2.125rem);
+                    @include ellipsis(2);
+                }
+                .intrvw-date {
+                    text-align: right;
+                    @include pre-4(0.9375rem, 1.5rem);
+                    color: var(--d-fc3);
+                }
+                &:nth-child(2) {
+                    position: relative;
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        background-image: url(../img/main_img/img-intrvwBg02.svg);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        position: absolute;
+                        top: -144px;
+                        left: 29px;
+                        width: 122px;
+                        height: 144px;
+                    }
+                }
+            }
+        }
+        .intrvw-btn {
+            background-image: url(../img/main_img/img-btnBg-right.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            .btn-mainGo {
+                @include g-5(1.125rem, 1.875rem);
+                padding: 52px 97px 30px 60px;
+                background-image: url(../img/main_icon/icon-btnBg.svg);
+                background-repeat: no-repeat;
+                background-position: right 33px top 43px;
+                background-size: 48px 48px;
+            }
+        }
+   
+    }
+}
+// =========== 인쇄복권 1등 당첨자 인터뷰 end===========
+
+// ========= 고객센터 start =========
+.cstmer-box {
+    display: grid;
+    @include gridBox(1);
+    column-gap: 1.875rem;
+    .cstmer-inbox01 {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 1.875rem;
+        margin-bottom: 1.875rem;
+        .cstmerBox-item01 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr 1fr;
+            column-gap: 1.875rem;
+            row-gap: 1.875rem;
+            .boxItem-detail {
+                &:hover {
+                    color: var(--d-fc1);
+                    text-decoration: none;
+                }
+                padding: 1.875rem;
+                border-radius: 1.25rem;
+                border: 1px solid var(--d-lc1);
+                box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.03) ;
+                @include flexBox(between, center);
+                .boxItem-txt {
+                    @include g-5(1.375rem, 1.875rem);
+                    .mo-clean-br {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .cstmerBox-item02 {
+            .d-sns-inbox {
+                padding: 1.875rem;
+                border-radius: 1.25rem;
+                border: 1px solid var(--d-lc1);
+                background-color: var(--d-bg4);
+                .boxItem-sns {
+                    @include flexBox(between, center);
+                    margin-bottom: 1.625rem;                  
+                    .boxSns-txt {
+                        @include g-5(1.125rem, 1.75rem);
+                    }
+                    .boxSns-icon {
+                        display: flex;
+                        height: 1.75rem;
+                        column-gap: 6px;
+                    }
+                   
+                }
+                .boxItem-video {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1.25rem;
+                    overflow: hidden;
+                    background-color: var(--d-dc-y);
+                }
+            }
+        }
+        .cstmerBox-item03 {
+            padding: 1.875rem;
+            border-radius: 1.25rem;
+            background-color: var(--d-primary1);
+            .d-clean-a {
+                text-decoration: none;
+                color: var(--d-bg2);
+                .d-clean-inbox {
+                    background-image: url(../img/main_img/img-clean-bg.svg);
+                    background-repeat: no-repeat;
+                    background-position: 12.25rem 0;
+                    background-size: 6.25rem;
+                    .d-clean-title {
+                        @include g-5( 1.125rem, 1.75rem);
+                        color: var(--d-second1);
+                        margin-bottom: 1.375rem;
+                    }
+                    .d-clean-txt {
+                        @include g-5( 1.375rem, 1.875rem);
+                        margin-bottom: 2.5rem;
+                        .pc-clean-br {
+                            display: block
+                        }
+                    }
+                    .d-clean-info {
+                        @include g-5( 0.9375rem, 1.5rem);
+                        margin-bottom: 0.625rem;
+                    }
+                    .d-clean-tel {
+                        @include g-7(1.5rem, 1.5rem);
+                    }
+                }
+            }
+        }
+    }
+    .cstmer-inbox02 {
+        @include gridBox(2);
+        column-gap: 1.875rem;
+        .cstmer-board {
+            flex: 1;
+            padding: 1.875rem;
+            border-radius: 1.25rem;
+            border: 1px solid var(--d-lc1);
+            overflow: hidden;
+            .cstmer-board-title {
+                @include flexBox(between, center);
+                margin-bottom: 1.625rem;
+                .board-name {
+                    @include g-5(1.125rem, 1.75rem);
+                   
+                }
+            }
+            .cstmer-board-content {
+                .board-content-ul {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 1rem;
+                    .board-content-li {
+                        @include flexBox(between, center);
+                        column-gap: 0.875rem;
+                        .board-sbjct {
+                            color: var(--d-fc1);
+                            @include g-5(1.375rem, 1.875rem);
+                            @include ellipsis(1);
+                            &:hover {
+                                color: var(--d-fc1);
+                                text-decoration: none;
+                            }
+                        }
+                        .board-date {
+                            color: var(--d-fc3);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cstmer-tab-ul {
+        display: none;
+    }
+}
+// ========= 고객센터 end=========
+
+
+// ========= 간소화페이지 start =========
+.simplify-header {
+    @include flexBox();
+}
+.d-simplify-cont {
+    width: 100%;
+    .center-wrap {
+        max-width: 90rem;
+        // 가로 1440px;
+        margin: 0 auto;
+        .simplify-box {
+            border-radius: 1.25rem;
+            @include border(var(--d-lc5));
+            @include flexBox();
+            flex-direction: column;
+            padding: 4.375rem 0;
+            position: relative;
+            &::after {
+                content: '';
+                background-image: url(../img/main_img/img-simplify-bg.svg);
+                background-repeat: no-repeat;
+                background-position:center center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+            }
+            .this-week {
+                text-align: center;
+                .this-week-round {
+                    .round-num {
+                        @include g-7(2.25rem, 2.25rem);
+                        .round-txt {
+                            @include g-5(2.25rem, 2.25rem);
+                        }
+                    }
+                   
+                }
+                .today-date {
+                    margin-top: 0.875rem;
+                    @include g-5(1.125rem, 1.875rem);
+                }
+            }
+            .time-box {
+                width: 460px;
+                padding: 2.375rem 0;
+                background-color: var(--d-bg1);
+                border-radius: 1.25rem;
+                @include flexBox();
+                flex-direction: column;
+                margin-top: 3.25rem;
+                .time-txt {
+                    @include g-5(0.9375rem, 1.5rem);
+                    color: var(--d-fc3);
+                }
+                .real-time {
+                    @include flexBox();
+                    @include g-7(3.75rem, 4.75rem);
+
+                }
+                .time-info {
+                    background-image: url(../img/main_img/img-simplify-tri.svg);
+                    background-repeat: no-repeat;
+                    background-position: left 4px center;
+                    padding-left: 28px;
+                    color: var(--d-fc1);
+                    @include g-5(1.125rem, 1.875rem);
+                    margin-top: 1.5rem;
+                    .boardcast {
+                        color: var(--d-fc2);
+                    }
+                }
+            }
+        }
+    }
+}
+// ========= 간소화페이지 end =========
+
+
+// 반응형 레이아웃
+// 1. pc : 1920px
+// 2. pc : 1440px
+// 3. pc : 1240px
+// 4. PC+반응형 : 1024px
+// 5. 태블릿 : 760px
+// 6. 폴드류 : 576px
+// 7. 모바일 : 480px
+
+
+
+
+// 2. pc : 1440px
+@media (max-width: 1440px) {
+    section {
+        width: 100%;
+        .center-wrap {
+            max-width: 90%;
+            margin: 0 auto 7.5rem;
+            &.d-instant-wrap {
+                margin-bottom: 0;
+            }
+            &.d-lottery-wrap {
+                margin-bottom: 0px;
+            }
+            &.d-intrvw-wrap {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    // =========== 인쇄복권 1등 당첨자 인터뷰 start ===========
+    .intrvw-boxWrap {
+        max-width: 90%;
+        margin: 0 auto 7.5rem;
+    }
+    // =========== 인쇄복권 1등 당첨자 인터뷰 end===========
+
+    // ========= 즉석식 복권 start =========
+    .instant-pcWrap {
+        max-width: calc(90% + 3.75rem);
+        // 스와이퍼에서 좌우 1.5rem 패딩된 값 포함
+        margin: 0 auto;
+        .instant-box-pc {
+            .swiper {
+                padding: 0 1.5rem;
+                &.offLine-store {
+                    // 즉석식 판매점 스와이퍼 버튼
+                    .btn-offline-store {
+                        position: absolute;
+                        top: 58%;
+                        transform: translateY(-50%);
+                        // z-index: 1200;
+                        &.swiper-button-next {
+
+                            &::after {
+                                background-size: contain;
+                                width: 2.75rem;
+                                height: 2.75rem;
+                                left: -8px;
+
+                            }
+                        }
+                        &.swiper-button-prev {
+                            &::after {
+                                background-size: contain;
+                                width: 2.75rem;
+                                height: 2.75rem;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .instant-box {
+        max-width: 90%;
+        margin: 0 auto 7.5rem;
+        .instant-tabWrap {
+            .offLine-store {
+                display: none;
+            }
+            .onLine-store {
+                margin-top: 1.875rem;
+                @include gridBox(4);
+                column-gap: 1.875rem;
+                .lottery-box {
+                    border-radius: 1.25rem;
+                    @include border(var(--d-lc5));
+                    padding: 1.5rem 1.875rem 1.25rem;
+                    @include hoverTrans;
+                    &:hover {
+                        @include border(var(--d-primary1));
+                        @include boxShadow;
+                    }
+                    .box-head {
+                        @include flexBox(between, center);
+                        .lottery-name {
+                            @include g-5(1.125rem, 1.875rem);
+                        }
+                        .round-num {
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                            @include border(var(--d-lc3));
+                            @include flexBox();
+                            @include pre-4(0.9375rem, 1.25rem);
+                        }
+                    }
+                    .box-img {
+                        margin-top: 0.25rem;
+                        border-radius: 0.625rem;
+                        overflow: hidden;
+                        img {
+                            object-fit: cover;
+                            width: 100%;
+                        }
+                    }
+                    .box-tail {
+                        margin-top: 0.9375rem;
+                        padding-bottom: 1.25rem;
+                        border-bottom: 1px solid var(--d-lc1);
+                        .box-tail-row {
+                            &:not(:last-child) {
+                                margin-bottom: 0.5rem;
+                            }
+                            @include flexBox(between, center);
+                            .tail-tit {
+                                @include g-5(1rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                            .tail-txt {
+                                @include g-5(1rem, 1.5rem);
+                            }
+                        }
+                    }
+                    .box-btnWrap {
+                        margin-top: 0.875rem;
+                        @include flexBox();
+                        column-gap: 0.5rem;
+                        .btn-pill01 {
+                            @include btnPill-01();
+                            @include pre-4(0.9375rem, 1.5rem);
+                            padding: 0.625rem;
+                            @include hoverTrans;
+                            &:hover {
+                                border: 1px solid var(--d-fc1);
+                            }
+                        }
+                        .btn-pill02 {
+                            @include btnPill-02();
+                            padding: 0.625rem 26px 0.625rem 0.625rem;
+                            background-position: left 60px center;
+                            @include pre-4(0.9375rem, 1.5rem);
+                            // padding: 0.625rem 1.5rem;
+                            @include hoverTrans;
+                            &:hover {
+                                border: 1px solid var(--d-fc1);
+                            }
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+    // ========= 즉석식 복권 end =========
+
+}
+
+// 3. pc : 1240px
+@media screen and (max-width: 1240px) {
+        // main container 영역
+    // 공통 영역 + 가운데 정렬 + 서브타이틀
+    section {
+        width: 100%;
+        .center-wrap {
+            width: 100%;
+            max-width: unset;
+            padding: 1.875rem;
+            margin: 0 auto 3.75rem;
+            // &.d-instant-wrap {
+            //     padding-bottom: 0;
+            //     margin-bottom: 0px;
+            //     .tit-wrap {
+            //         margin-bottom: 0px;
+            //     }
+            // }
+            // &.d-lottery-wrap {
+            //     margin-bottom: 0px;
+            //     padding: 0.875rem;
+            // }
+            // &.d-intrvw-wrap {
+            //     margin-bottom: 0px;
+            // }
+            // .tit-wrap {
+            //     @include flexBox(between, center);
+            //     margin-bottom: 1.75rem;
+            //     .main-sub-title {
+            //         color: var(--d-fc1);
+            //         font-family: 'GmarketSans';
+            //         font-weight: 700;
+            //         font-size: 1.5rem;
+            //         line-height: 1.5rem;
+            //     }
+            //     .main-sub-view {
+            //         display: block;
+            //         @include pre-4(0.875rem, 1rem);
+            //         color: var(--d-fc9);
+            //     }
+            // }
+        }
+    }
+
+    // =========== 인쇄복권 1등 당첨자 인터뷰 start ===========
+    .intrvw-boxWrap {
+        max-width: 90%;
+        margin: 0 auto 3.75rem;
+        .intrvw-box {
+            position: relative;
+       
+            .intrvw-inbox {
+                background-color: var(--d-second1);
+                border-radius: 1.25rem;
+                padding: 1.875rem 1.875rem 7.625rem;
+                background-image: url(../img/main_img/img-intrvwBg01.svg);
+                background-repeat: no-repeat;
+                background-position: right 228px bottom 0;
+                @include gridBox(4);
+                column-gap: 1.875rem;
+                .intrvw-item {
+                    padding: 1.875rem;
+                    border-radius: 1.25rem;
+                    background-color: var(--d-second12);
+                    .game-name {
+                        @include g-5(1.125rem, 1.875rem);
+                        color: var(--d-fc3);
+                        margin-bottom: 1.125rem;
+                    }
+                    .game-money {
+                        @include g-7(1.25rem, 1.5rem);
+                        margin-top: 0.625rem;
+                    }
+                    .intrvw-sub {
+                        margin-top: 0.875rem;
+                        @include g-5(1.25rem, 2.125rem);
+                        @include ellipsis(2);
+                    }
+                    .intrvw-date {
+                        text-align: right;
+                        @include pre-4(0.9375rem, 1.5rem);
+                        color: var(--d-fc3);
+                    }
+                    &:nth-child(2) {
+                        position: relative;
+                        &::before {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/main_img/img-intrvwBg02.svg);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            position: absolute;
+                            top: -144px;
+                            left: 29px;
+                            width: 122px;
+                            height: 144px;
+                        }
+                    }
+                }
+            }
+            .intrvw-btn {
+                background-image: url(../img/main_img/img-btnBg-right.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                bottom: -5px;
+                right: 0;
+                .btn-mainGo {
+                    @include g-5(1.125rem, 1.875rem);
+                    padding: 52px 97px 30px 60px;
+                    background-image: url(../img/main_icon/icon-btnBg.svg);
+                    background-repeat: no-repeat;
+                    background-position: right 33px top 43px;
+                    background-size: 48px 48px;
+                }
+            }
+       
+        }
+    }
+    // =========== 인쇄복권 1등 당첨자 인터뷰 end===========
+
+    // ========= 추첨식 복권 start =========
+    .d-lottery {
+        // display: none;
+        background-color: var(--d-bg8);
+        padding: 5rem 0;
+        margin-bottom: 7.5rem;    
+    }
+    .lottery-box-wrap {
+        @include gridBox(6);
+        grid-template-rows: auto;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        width:100%;
+        overflow-x: auto;
+        .lottery-box-text {
+            display: none;
+        }
+        .lottery-box {
+            width: 460px;
+            @include flexBox(center, center);
+            flex-direction: column;
+            border-radius: 1.25rem;
+            @include border(var(--d-lc5));
+            background-color: var(--d-bg2);
+            padding: 1.5rem;
+            overflow: hidden;
+            &.pt-30 {
+                padding: 0;
+                padding-top: 1.5rem;
+            }
+            .swiper {
+                &.lt645 {
+                    .swiper-wrapper {
+                        width: 400px;
+                        .lt645-inbox {
+                            .lt645-head {
+                                @include flexBox(start, center);
+                                flex-direction: column;
+                                padding-bottom: 1rem;
+                                border-bottom: 1px solid var(--d-lc2);
+                                .lt645-round {
+                                    @include g-5(1.375rem, 2.125rem);
+    
+                                }
+                                .lt645-date {
+                                    @include pre-4(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                            }
+                            .lt645-numBox {
+                                @include flexBox();
+                                height: 144px;
+                                padding: 0 1rem;
+                                .lt645-list {
+                                    display: grid;
+                                    grid-template-columns: 40px 40px 40px 40px 40px 40px 20px 40px;
+                                    grid-template-rows: max-content;
+                                    column-gap: 0.625rem;
+                                    .lt-ball {
+                                        @include pre-7(1rem, 1.75rem);
+                                        width: 2.5rem;
+                                        height: 2.5rem;
+                                        border-radius: 50%;
+                                        color: var(--d-bg2);
+                                        @include flexBox();
+                                        &.num-0n {
+                                            background-color: var(--d-dc-0n);
+                                        }
+                                        &.num-1n {
+                                            background-color: var(--d-dc-1n);
+                                        }
+                                        &.num-2n {
+                                            background-color: var(--d-dc-2n);
+                                        }
+                                        &.num-3n {
+                                            background-color: var(--d-dc-3n);
+                                        }
+                                        &.num-4n {
+                                            background-color: var(--d-dc-4n);
+                                        }
+                                        &.plus {
+                                            margin: .625rem 0 0;
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                            .lt645-winningInfo {
+                                @include flexBox();
+                                flex-direction: column;
+                                .info-txt {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                    margin-bottom: 0.375rem;
+                                }
+                                .info-winning-num {
+                                    @include flexBox(center, start);
+                                    .info-winning-money {
+                                        @include pre-7(2rem, 2rem);
+                                        margin-top: 0.25rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-won {
+                                        @include g-5(1.875rem, 2.75rem);
+                                        margin-right: 0.5rem;
+                                    }
+                                    .info-unit {
+                                    margin-top: 0.5rem;
+                                        @include pre-3(1.125rem, 1.625rem);
+                                    }
+                                }
+    
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1.25rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    flex: 1;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    @include hoverTrans();
+                                    @include g-5(1.125rem, 1.75rem);
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-lt645 {
+                        &.swiper-button-next {
+                    
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -160px;
+                                left: -13px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                        &.swiper-button-prev {
+                            @include hoverTrans();
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -160px;
+                                left: -9px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                    }
+                }
+                &.wf720 {
+                    .swiper-wrapper {
+                        width: 400px;
+                        .wf720-inbox {
+                            .wf720-head {
+                                @include flexBox(start, center);
+                                flex-direction: column;
+                                padding-bottom: 1rem;
+                                border-bottom: 1px solid var(--d-lc2);
+                                .wf720-round {
+                                    @include g-5(1.375rem, 2.125rem);
+    
+                                }
+                                .wf720-date {
+                                    @include pre-4(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                            }
+                            .wf720-numBox {
+                                @include flexBox();
+                                flex-direction: column;
+                                height: 144px;
+                                .wf720-list {
+                                    width: 100%;
+                                    @include flexBox(between, center);
+                                    flex-direction: row;
+                                    margin-top: 0.75rem;
+                                    .wf720-tit {
+                                        @include g-5(0.9375rem, 1.5rem);
+                                    }
+                                    .wf720-num-list {
+                                        @include flexBox(end, center);
+                                        column-gap: 0.375rem;
+                                        &.color-gray {
+                                            color: var(--d-fc3);
+                                        }
+                                        .wf-ball {
+                                            @include g-7(1.125rem, 1.75rem);
+                                            width: 40px;
+                                            height: 40px;
+                                            border-radius: 50%;
+                                            @include flexBox();
+                                            &.pension-jo {
+                                                border: 3px solid var(--d-wf-pen);
+                                            }
+                                            &.wf-1n {
+                                                border: 3px solid var(--d-wf-1n);
+                                            }
+                                            &.wf-2n {
+                                                border: 3px solid var(--d-wf-2n);
+                                            }
+                                            &.wf-3n {
+                                                border: 3px solid var(--d-wf-3n);
+                                            }
+                                            &.wf-4n {
+                                                border: 3px solid var(--d-wf-4n);
+                                            }
+                                            &.wf-5n {
+                                                border: 3px solid var(--d-wf-5n);
+                                            }
+                                            &.wf-6n {
+                                                border: 3px solid var(--d-wf-6n);
+                                            }
+                                        }
+                                        .num-jo {
+                                            display: flex;
+                                            align-items: center;
+                                            // padding-left: 3px;
+                                            @include g-5(0.9375rem, 1.5rem);
+                                            color: var(--d-fc3);
+                                        }
+                                    }
+                                }
+                            }
+                            .wf720-winningInfo {
+                                @include flexBox();
+                                flex-direction: column;
+                                .info-txt {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                    margin-bottom: 0.375rem;
+                                }
+                                .info-winning-num {
+                                    @include flexBox(center, start);
+                                    flex-direction: row;
+                                    .info-month {
+                                        @include g-5(1.875rem, 2.75rem);
+                                        margin-right: 0.5rem;
+                                    }
+                                    .info-winning-money {
+                                        @include pre-7(2rem, 2rem);
+                                        margin-top: 0.25rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-year {
+                                        @include pre-7(2rem, 2rem);
+                                        margin-top: 0.25rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-won {
+                                        @include g-5(1.875rem, 2.75rem);
+                                    }
+                                    .info-unit {
+                                        @include pre-3(1.125rem, 1.625rem);
+                                    }
+                                }
+    
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1.25rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    flex: 1;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    @include hoverTrans();
+                                    @include g-5(1.125rem, 1.75rem);
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-wf720 {
+                        &.swiper-button-next {
+                    
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -160px;
+                                left: -13px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                        &.swiper-button-prev {
+                            @include hoverTrans();
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -160px;
+                                left: -9px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                    }
+                }
+
+            }
+            .lottery-boxWrap {
+                width: 100%;
+                .lottery-wrapper {
+                    .lottery-inbox {
+                        .lottery-head {
+                            margin: 0 1.875rem;                            
+                            @include flexBox(start, center);
+                            flex-direction: column;
+                            padding-bottom: 1rem;
+                            border-bottom: 1px solid var(--d-lc2);
+                            .head-wrap {
+                                @include flexBox();
+                                column-gap: 0.25rem;
+                                .head-round {
+                                    @include g-5(1.375rem, 2.125rem);
+                                }
+                                .main-main-tooltip {
+                                    position: relative;
+                                }
+                            }
+                            .head-date {
+                                @include pre-4(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                        }
+                        .lottery-numBox {
+                            @include flexBox();
+                            height: 88px;
+                            padding: 0 1rem;
+                            .numBox-list {
+                                display: grid;
+                                grid-template-columns: 40px 40px 40px 40px 40px 20px 40px;
+                                grid-template-rows: max-content;
+                                column-gap: 0.625rem;
+                                &.view-all-box {
+                                    grid-template-columns: 40px 40px 40px 40px 40px 40px 104px;
+                                    column-gap: 0.4rem;
+                                }
+                                .lottery-ball {
+                                    @include pre-7(1.125rem, 1.75rem);
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                    border-radius: 50%;
+                                    @include border(var(--d-wf-6n));
+                                    @include flexBox();
+                                    &.bonus {
+                                        background-color: var(--d-wf-4n);
+                                        color: var(--d-bg2);
+                                        @include border(transparent);
+                                    }
+                                    &.plus {
+                                        @include border(transparent);
+                                        margin: .625rem 0 0;
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                            
+                                }
+                                .btn-viewAll {
+                                    padding: 8px 14px 8px 32px;
+                                    color: var(--d-fc1);
+                                    border-radius: 2.5rem;
+                                    border: 1px solid var(--d-fc2);
+                                    background-color: var(--d-bg3);
+                                    background-image: url(../img/main_icon/icon-mainViewAll.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: left 14px center;
+                                    background-size: 0.875rem 0.875rem;
+                                    position: relative;
+                                    &::before {
+                                        content: '';
+                                        display: inline-block;
+                                        background-image: url(../img/main_img/img-viewAllBg.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: right center;
+                                        background-size: 2.5rem 2.5rem;
+                                        position: absolute;
+                                        left: -2.55rem;
+                                        top: 0;
+                                        width: 2.5rem;
+                                        height: 2.5rem;
+                                        cursor: default;
+                                    }
+                                }
+                            }
+                        }
+                        .lottery-winningInfo {
+                            @include flexBox();
+                            flex-direction: column;
+                            margin-bottom: 1.625rem;
+                            .info-txt {
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.375rem;
+                            }
+                            .info-winning-num {
+                                @include flexBox(center, start);
+                                .info-winning-money {
+                                    @include pre-7(2rem, 2rem);
+                                    margin-top: 0.25rem;
+                                    margin-right: 0.25rem;
+                                }
+                                .info-won {
+                                    @include g-5(1.875rem, 2.75rem);
+                                    margin-right: 0.5rem;
+                                }
+                            }
+                        }
+                        .lottery-tail {
+                            background-color: var(--d-bg1);
+                            padding: 1.875rem 0;
+                            .realtime-txt {
+                                text-align: center;
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.635rem;
+                            }
+                            .realtime-money {
+                                @include flexBox(center, start);
+                                margin-bottom: 1.5rem;
+                                .realtime-num {
+                                    @include g-7(2rem, 2rem);
+                                    margin-top: 0.3rem;
+                                }
+                                .realtime-won {
+                                    @include g-5(1.875rem, 2.75rem);
+                                }
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1.25rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    width: 50%;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    @include hoverTrans();
+                                    @include g-5(1.125rem, 1.75rem);
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    // ========= 추첨식 복권 end =========
+    
+}
+
+
+// 4. PC+반응형 : 1024px
+@media screen and (max-width: 1024px) {
+        // main container 영역
+    // 공통 영역 + 가운데 정렬 + 서브타이틀
+    section {
+        width: 100%;
+        .center-wrap {
+            width: 100%;
+            max-width: unset;
+            padding: 1.875rem;
+            margin: 0 auto 3.75rem;
+            &.d-instant-wrap {
+                padding-bottom: 0;
+                margin-bottom: 0px;
+                .tit-wrap {
+                    margin-bottom: 0px;
+                }
+            }
+            &.d-lottery-wrap {
+                margin-bottom: 0px;
+            }
+            &.d-intrvw-wrap {
+                margin-bottom: 0px;
+            }
+            .tit-wrap {
+                @include flexBox(between, center);
+                margin-bottom: 1.75rem;
+                .main-sub-title {
+                    color: var(--d-fc1);
+                    font-family: 'GmarketSans';
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                }
+                .main-sub-view {
+                    display: block;
+                    @include pre-4(0.875rem, 1rem);
+                    color: var(--d-fc9);
+                }
+            }
+        }
+    }
+
+
+    // ========= 바로구매 start =========
+    .d-buyDirect {
+        display: block;
+        // 여기서부터 임시 여백
+        width: 100%;
+        padding: 1rem;
+        margin: 0 auto;
+        // 여기까지 임시 여백
+       
+        .d-buyDirect-wrap {
+            @include flexBox(between, end);
+            .buyDirect-ul {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                column-gap: 6px;
+                row-gap: 8px;
+                flex-wrap: wrap;
+                height: 32px;
+                overflow: hidden;
+                width: calc(100% - 2rem);
+                .buyDirect-tit {
+                    @include g-5(1rem, 1.5rem);
+                    margin-right: 0.25rem;
+                    color: var(--d-primary1);
+                }
+                .buyDirect-li {
+                    .btn-go-buy {
+                        padding: 8px 12px;
+                        background-color: var(--d-bg1);
+                        color: var(--d-fc3);
+                        @include g-5(0.9375rem, 1.25rem);
+                        border-radius: 2.5rem;
+                    }
+                }
+            }
+            .btn-viewMore {
+                background-image: url(../img/main_icon/icon-main-btn-open.svg);
+                background-repeat: no-repeat;
+                background-position: right bottom;
+                width: 33px;
+                height: 33px;
+                position: relative;
+                border-radius: 50%;
+                @include boxShadow();
+                &::before {
+                    content: '';
+                    display: inline-block;
+                    width: 32px;
+                    height: 32px;
+                    background-image: url(../img/main_icon/btn-graient.svg);
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: 0;
+                    left: -32px;
+                }
+
+            }
+            &.open {
+                .buyDirect-ul {
+                    height: fit-content;
+                }
+                .btn-viewMore {
+                    background-image: url(../img/main_icon/icon-main-btn-close.svg);              
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    width: 33px;
+                    height: 33px;
+                    position: relative;
+                    border-radius: 50%;
+                    @include boxShadow();
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        width: 32px;
+                        height: 32px;
+                        background-image: url(../img/main_icon/btn-graient.svg);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: -32px;
+                    }
+                }
+            }
+           
+        }
+    }
+    // ========= 바로구매 end =========
+
+    // ========= 추첨식 복권 start =========
+    .d-lottery {
+        // display: none;
+        background-color: var(--d-bg8);
+        padding: 1rem 0;
+        margin-bottom: 7.5rem;    
+    }
+    .lottery-box-wrap {
+        @include gridBox(6);
+        grid-template-rows: auto;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        width:100%;
+        overflow-x: auto;
+        .lottery-box-text {
+            display: none;
+        }
+        .lottery-box {
+            width: 350px;
+            @include flexBox(center, center);
+            flex-direction: column;
+            border-radius: 1.25rem;
+            @include border(var(--d-lc5));
+            background-color: var(--d-bg2);
+            padding: 1rem;
+            overflow: hidden;
+            &.pt-30 {
+                padding: 0;
+                padding-top: 1.5rem;
+            }
+            .swiper {
+                &.lt645 {
+                    .swiper-wrapper {
+                        width: 300px;
+                        .lt645-inbox {
+                            .lt645-head {
+                                margin-top: 2rem;
+                                @include flexBox(start, center);
+                                flex-direction: column;
+                                padding-bottom: 1rem;
+                                border-bottom: 1px solid var(--d-lc2);
+                                .lt645-round {
+                                    @include g-5(1.375rem, 2.125rem);
+    
+                                }
+                                .lt645-date {
+                                    @include pre-4(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                            }
+                            .lt645-numBox {
+                                @include flexBox();
+                                height: 144px;
+                                padding: 0rem;
+                                .lt645-list {
+                                    display: grid;
+                                    grid-template-columns: 35px 35px 35px 35px 35px 35px 15px 35px;
+                                    grid-template-rows: max-content;
+                                    column-gap: 0.4rem;
+                                    .lt-ball {
+                                        @include pre-7(1rem, 1.75rem);
+                                        width: 35px;
+                                        height: 35px;
+                                        border-radius: 50%;
+                                        color: var(--d-bg2);
+                                        @include flexBox();
+                                        &.num-0n {
+                                            background-color: var(--d-dc-0n);
+                                        }
+                                        &.num-1n {
+                                            background-color: var(--d-dc-1n);
+                                        }
+                                        &.num-2n {
+                                            background-color: var(--d-dc-2n);
+                                        }
+                                        &.num-3n {
+                                            background-color: var(--d-dc-3n);
+                                        }
+                                        &.num-4n {
+                                            background-color: var(--d-dc-4n);
+                                        }
+                                        &.plus {
+                                            margin: .625rem 0 0;
+                                            width: 15px;
+                                            height: 15px;
+                                        }
+                                    }
+                                }
+                            }
+                            .lt645-winningInfo {
+                                @include flexBox();
+                                flex-direction: column;
+                                .info-txt {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                    margin-bottom: 0.375rem;
+                                }
+                                .info-winning-num {
+                                    @include flexBox(center, start);
+                                    .info-winning-money {
+                                        @include pre-7(2rem, 2rem);
+                                        margin-top: 0.25rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-won {
+                                        @include g-5(1.875rem, 2.75rem);
+                                        margin-right: 0.5rem;
+                                    }
+                                    .info-unit {
+                                    margin-top: 0.5rem;
+                                        @include pre-3(1.125rem, 1.625rem);
+                                    }
+                                }
+    
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1.25rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    flex: 1;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    padding: 18px 0px;
+                                    @include hoverTrans();
+                                    @include g-5(1.125rem, 1.75rem);
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-lt645 {
+                        &.swiper-button-next {
+                    
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -135px;
+                                left: -13px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                        &.swiper-button-prev {
+                            @include hoverTrans();
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -135px;
+                                left: -9px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                    }
+                }
+                &.wf720 {
+                    .swiper-wrapper {
+                        width: 300px;
+                        .wf720-inbox {
+                            .wf720-head {
+                                margin-top: 2rem;
+                                @include flexBox(start, center);
+                                flex-direction: column;
+                                padding-bottom: 1rem;
+                                border-bottom: 1px solid var(--d-lc2);
+                                .wf720-round {
+                                    @include g-5(1.375rem, 2.125rem);
+    
+                                }
+                                .wf720-date {
+                                    @include pre-4(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                            }
+                            .wf720-numBox {
+                                @include flexBox();
+                                flex-direction: column;
+                                height: 144px;
+                                .wf720-list {
+                                    width: 100%;
+                                    @include flexBox(between, center);
+                                    flex-direction: row;
+                                    margin-top: 0.75rem;
+                                    .wf720-tit {
+                                        @include g-5(0.9375rem, 1.5rem);
+                                    }
+                                    .wf720-num-list {
+                                        @include flexBox(end, center);
+                                        column-gap: 0.375rem;
+                                        &.color-gray {
+                                            color: var(--d-fc3);
+                                        }
+                                        .wf-ball {
+                                            @include g-7(1.125rem, 1.5rem);
+                                            width: 32px;
+                                            height: 32px;
+                                            border-radius: 50%;
+                                            @include flexBox();
+                                            &.pension-jo {
+                                                border: 3px solid var(--d-wf-pen);
+                                            }
+                                            &.wf-1n {
+                                                border: 3px solid var(--d-wf-1n);
+                                            }
+                                            &.wf-2n {
+                                                border: 3px solid var(--d-wf-2n);
+                                            }
+                                            &.wf-3n {
+                                                border: 3px solid var(--d-wf-3n);
+                                            }
+                                            &.wf-4n {
+                                                border: 3px solid var(--d-wf-4n);
+                                            }
+                                            &.wf-5n {
+                                                border: 3px solid var(--d-wf-5n);
+                                            }
+                                            &.wf-6n {
+                                                border: 3px solid var(--d-wf-6n);
+                                            }
+                                        }
+                                        .num-jo {
+                                            display: flex;
+                                            align-items: center;
+                                            // padding-left: 3px;
+                                            @include g-5(0.9375rem, 1.5rem);
+                                            color: var(--d-fc3);
+                                        }
+                                    }
+                                }
+                            }
+                            .wf720-winningInfo {
+                                @include flexBox();
+                                flex-direction: column;
+                                .info-txt {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                    margin-bottom: 0.375rem;
+                                }
+                                .info-winning-num {
+                                    @include flexBox(center, start);
+                                    flex-direction: row;
+                                    .info-month {
+                                        @include g-5(1.875rem, 2.75rem);
+                                        margin-right: 0.5rem;
+                                    }
+                                    .info-winning-money {
+                                        @include pre-7(2rem, 2rem);
+                                        margin-top: 0.25rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-year {
+                                        @include pre-7(2rem, 2rem);
+                                        margin-top: 0.25rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-won {
+                                        @include g-5(1.875rem, 2.75rem);
+                                    }
+                                    .info-unit {
+                                        @include pre-3(1.125rem, 1.625rem);
+                                    }
+                                }
+    
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1.25rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    flex: 1;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    padding: 18px 0px;
+                                    @include hoverTrans();
+                                    @include g-5(1.125rem, 1.75rem);
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-wf720 {
+                        &.swiper-button-next {
+                    
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -135px;
+                                left: -13px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                        &.swiper-button-prev {
+                            @include hoverTrans();
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -135px;
+                                left: -9px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                    }
+                }
+
+            }
+            .lottery-boxWrap {
+                width: 100%;
+                .lottery-wrapper {
+                    .lottery-inbox {
+                        .lottery-head {
+                            margin: 0 1.875rem;                            
+                            @include flexBox(start, center);
+                            flex-direction: column;
+                            padding-bottom: 1rem;
+                            border-bottom: 1px solid var(--d-lc2);
+                            .head-wrap {
+                                @include flexBox();
+                                column-gap: 0.25rem;
+                                .head-round {
+                                    @include g-5(1.375rem, 2.125rem);
+                                }
+                                .main-main-tooltip {
+                                    position: relative;
+                                }
+                            }
+                            .head-date {
+                                @include pre-4(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                        }
+                        .lottery-numBox {
+                            @include flexBox();
+                            height: 88px;
+                            padding: 0rem;
+                            .numBox-list {
+                                display: grid;
+                                grid-template-columns: 35px 35px 35px 35px 35px 20px 35px;
+                                grid-template-rows: max-content;
+                                column-gap: 0.625rem;
+                                &.view-all-box {
+                                    grid-template-columns: 35px 35px 35px 35px 35px 20px 84px;
+                                    column-gap: 0.4rem;
+                                }
+                                .lottery-ball {
+                                    @include pre-7(1.125rem, 1.75rem);
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                    border-radius: 50%;
+                                    @include border(var(--d-wf-6n));
+                                    @include flexBox();
+                                    &.bonus {
+                                        background-color: var(--d-wf-4n);
+                                        color: var(--d-bg2);
+                                        @include border(transparent);
+                                    }
+                                    &.plus {
+                                        @include border(transparent);
+                                        margin: .625rem 0 0;
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                            
+                                }
+                                .btn-viewAll {
+                                    padding: 8px 10px 8px 20px;
+                                    color: var(--d-fc1);
+                                    border-radius: 2.5rem;
+                                    border: 1px solid var(--d-fc2);
+                                    background-color: var(--d-bg3);
+                                    background-image: url(../img/main_icon/icon-mainViewAll.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: left 10px center;
+                                    background-size: 0.875rem 0.875rem;
+                                    position: relative;
+                                    &::before {
+                                        content: '';
+                                        display: inline-block;
+                                        background-image: url(../img/main_img/img-viewAllBg.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: right center;
+                                        background-size: 2rem 2rem;
+                                        position: absolute;
+                                        left: -2rem;
+                                        top: 0;
+                                        width: 2rem;
+                                        height: 2rem;
+                                        cursor: default;
+                                    }
+                                }
+                            }
+                        }
+                        .lottery-winningInfo {
+                            @include flexBox();
+                            flex-direction: column;
+                            margin-bottom: 1.625rem;
+                            .info-txt {
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.375rem;
+                            }
+                            .info-winning-num {
+                                @include flexBox(center, start);
+                                .info-winning-money {
+                                    @include pre-7(2rem, 2rem);
+                                    margin-top: 0.25rem;
+                                    margin-right: 0.25rem;
+                                }
+                                .info-won {
+                                    @include g-5(1.875rem, 2.75rem);
+                                    margin-right: 0.5rem;
+                                }
+                            }
+                        }
+                        .lottery-tail {
+                            background-color: var(--d-bg1);
+                            padding: 1.125rem 0;
+                            .realtime-txt {
+                                text-align: center;
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.635rem;
+                            }
+                            .realtime-money {
+                                @include flexBox(center, start);
+                                margin-bottom: 1.5rem;
+                                .realtime-num {
+                                    @include g-7(2rem, 2rem);
+                                    margin-top: 0.3rem;
+                                }
+                                .realtime-won {
+                                    @include g-5(1.875rem, 2.75rem);
+                                }
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1.25rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    width: 50%;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    @include hoverTrans();
+                                    @include g-5(1.125rem, 1.75rem);
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    // ========= 추첨식 복권 end =========
+
+
+
+    // ========= 즉석식 복권 start =========
+    .instant-pcWrap {
+        display: none;
+    }
+    .instant-box-ul {
+        margin-top: 1.875rem;
+        display: flex;
+        width: 100%;
+        max-width: unset;
+        padding: 0 1.875rem;
+        column-gap: 1.875rem;
+        border-bottom: 1px solid var(--d-lc7);
+        .instant-box-li {
+            flex: 1;
+            text-align: center;
+            @include g-5(1.125rem, 1.5rem);
+            padding-bottom: 0.625rem;
+            &.tagTab {
+                border-bottom: 2px solid var(--d-primary1);
+                color: var(--d-primary1);
+            }
+        }
+    }
+
+    .instant-box {
+        width: 100%;
+        max-width: unset;
+        padding: 1.875rem;
+        margin: 0 auto 3.75rem;
+        .instant-tabWrap {
+            display: none;
+            &.tagTab {
+                display: block;
+            }
+            &.h-100 {
+                .offLine-store {
+                    height: fit-content;
+                    overflow: unset;
+                }
+                .onLine-store {
+                    height: fit-content;
+                    overflow: unset;
+                }
+                .view-instant {
+                    display: none;
+                }
+            }
+            .offLine-store {
+                @include gridBox(2);
+                column-gap: 1.875rem;
+                row-gap: 1.875rem;
+                height: 39rem;
+                overflow: hidden;
+                .lottery-box {
+                    border-radius: 1.25rem;
+                    @include border(var(--d-lc5));
+                    padding: 0.875rem 1.875rem 1.25rem;
+                    @include hoverTrans;
+                    &:hover {
+                        @include border(var(--d-primary1));
+                        @include boxShadow;
+                    }
+                    .box-head {
+                        @include flexBox(between, center);
+                        .lottery-name {
+                            @include g-5(1.125rem, 1.875rem);
+                        }
+                        .round-num {
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                            @include border(var(--d-lc3));
+                            @include flexBox();
+                            @include pre-4(0.9375rem, 1.25rem);
+                        }
+                    }
+                    .box-img {
+                        margin-top: 0.25rem;
+                        border-radius: 0.625rem;
+                        overflow: hidden;
+                        img {
+                            object-fit: cover;
+                            width: 100%;
+                        }
+                    }
+                    .box-tail {
+                        margin-top: 0.9375rem;
+                        padding-bottom: 1.25rem;
+                        border-bottom: 1px solid var(--d-lc1);
+                        .box-tail-row {
+                            &:not(:last-child) {
+                                margin-bottom: 0.5rem;
+                            }
+                            @include flexBox(between, center);
+                            .tail-tit {
+                                @include g-5(1rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                            .tail-txt {
+                                @include g-5(1rem, 1.5rem);
+                            }
+                        }
+                    }
+                    .box-btnWrap {
+                        margin-top: 0.875rem;
+                        @include flexBox();
+                        column-gap: 0.5rem;
+                        .btn-pill01 {
+                            @include btnPill-01();
+                            @include pre-4(0.9375rem, 1.5rem);
+                            padding: 0.625rem 1.5rem;
+                            @include hoverTrans;
+                            &:hover {
+                                border: 1px solid var(--d-fc1);
+                            }
+                        }
+                    }                  
+                }
+            }
+            .onLine-store {
+                margin-top: 1.875rem;
+                @include gridBox(2);
+                column-gap: 1.875rem;
+                row-gap: 1.875rem;
+                height: 39rem;
+                overflow: hidden;
+                .lottery-box {
+                    border-radius: 1.25rem;
+                    @include border(var(--d-lc5));
+                    padding: 1.5rem 1.875rem 1.25rem;
+                    @include hoverTrans;
+                    &:hover {
+                        @include border(var(--d-primary1));
+                        @include boxShadow;
+                    }
+                    .box-head {
+                        @include flexBox(between, center);
+                        .lottery-name {
+                            @include g-5(1.125rem, 1.875rem);
+                        }
+                        .round-num {
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                            @include border(var(--d-lc3));
+                            @include flexBox();
+                            @include pre-4(0.9375rem, 1.25rem);
+                        }
+                    }
+                    .box-img {
+                        margin-top: 0.25rem;
+                        border-radius: 0.625rem;
+                        overflow: hidden;
+                        img {
+                            object-fit: cover;
+                            width: 100%;
+                        }
+                    }
+                    .box-tail {
+                        margin-top: 0.9375rem;
+                        padding-bottom: 1.25rem;
+                        border-bottom: 1px solid var(--d-lc1);
+                        .box-tail-row {
+                            &:not(:last-child) {
+                                margin-bottom: 0.5rem;
+                            }
+                            @include flexBox(between, center);
+                            .tail-tit {
+                                @include g-5(1rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                            .tail-txt {
+                                @include g-5(1rem, 1.5rem);
+                            }
+                        }
+                    }
+                    .box-btnWrap {
+                        margin-top: 0.875rem;
+                        @include flexBox();
+                        column-gap: 0.5rem;
+                        .btn-pill01 {
+                            @include btnPill-01();
+                            @include pre-4(0.9375rem, 1.5rem);
+                            padding: 0.625rem 1.25rem;
+                            @include hoverTrans;
+                            &:hover {
+                                border: 1px solid var(--d-fc1);
+                            }
+                        }
+                        .btn-pill02 {
+                            @include btnPill-02();
+                            @include pre-4(0.9375rem, 1.5rem);
+                            // padding: 0.625rem 1.5rem;
+                            @include hoverTrans;
+                            &:hover {
+                                border: 1px solid var(--d-fc1);
+                            }
+                        }
+                    }                  
+                }
+            }
+            .view-instant {
+                @include flexBox();
+                @include border(var(--d-lc3));
+                border-radius: 0.625rem;
+                padding: 0.5rem 0;
+                position: relative;
+                .view-instant-txt {
+                    @include pre-4(1rem, 1.25rem);
+                }
+                figure {
+                    margin: 0 0 0;
+                    @include flexBox();
+                }
+                &::before {
+                    content: '';
+                    display: block;
+                    background-image: url(../img/main_img/img-btn-instantBg.svg);
+                    background-repeat: repeat-x;
+                    // background-position: left 0 top;
+                    // background-size: fit-contents 49px;
+                    width: 100%;
+                    height: 49px;
+                    position: absolute;
+                    left: 0;
+                    top: -50px;
+                }
+            }
+        }
+    }
+    // ========= 즉석식 복권 end =========
+
+
+    // ========= 판매점 검색 start =========
+    .storeScrh-tit {
+        position: relative;
+        .storeInfo-wrap {
+            display: none;
+            // 반응형에서부터 없어진다.
+            // position: absolute;
+            // left: 175px;
+            // bottom: 0;
+        }
+    }
+    .storeScrh-box {
+        border-radius: 6.25rem;
+        border: 3px solid var(--d-fc2);
+        padding: 1rem 1.5rem;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: max-content;
+        .storeScrh-inbox01 {
+            padding-right: 2.5rem;
+            border-right: none;
+            display: grid;
+            grid-template-columns:43px calc((100% - 43px) / 2) calc((100% - 43px) / 2);
+            grid-template-rows: max-content;
+            column-gap: 1rem;
+
+        }
+        .storeScrh-inbox02 {
+            padding-left: 1.5rem;
+            display: grid;
+            grid-template-columns: 43px calc(100% - 60px);
+            grid-template-rows: max-content;
+            column-gap: 1.125rem;
+        }
+        .storeSrch-item {
+            .storeScrh-item-head {
+                @include flexBox(start, center);
+                @include g-5(1.375rem, 2.125rem);
+            }
+            .main-select-box {
+                // overflow: hidden;
+                border-radius: 6.25rem;
+            }
+
+        }
+    }
+    // ========= 판매점 검색 end =========
+
+
+    // ========= 당첨 소감 한마디 start =========
+    .d-winner {
+        &.mt-240 {
+            margin-top: 100px;
+        }
+    }
+    .winner-box {
+        border-radius: 6.25rem;
+        border: 3px solid var(--d-fc2);
+        padding: 1.5rem 2.5rem;
+        position: relative;
+        background-color: var(--d-bg2);
+        &::before {
+            content: '';
+            display: inline-block;
+            background-image: url(../img/main_img/img-winnerShort.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -123.5px;
+            right: 600px;
+            width: 120px;
+            height: 120px;
+        }
+        .swiper {
+            &.winnerShort {
+                width: 100%;
+                height: 40px;
+                .inshort-item {
+                    margin-bottom: 0 !important;
+                    display: grid;
+                    grid-template-columns: 14% 17% 53% 16%;
+                    grid-template-rows: max-content;
+                    .game-name {
+                        @include flexBox(center, center);
+                        width: fit-content;
+                        padding: 0.5rem 0.875rem;
+                        @include pre-4(0.9875rem, 1.5rem);
+                        color: var(--d-primary1);
+                        border-radius: 2.5rem;
+                        background-color: var(--d-second13);
+                        margin-right: 1.25rem;
+                    }
+                    .game-money {
+                        @include flexBox(start, center);
+                        @include g-5(0.9875rem, 1.5rem);
+                        .money-tit {
+                            color: var(--d-fc3);
+                        }
+                    }
+                    .winner-inshort {
+                        padding-top: 3px;
+                        @include g-5(1.25rem, 2.125rem);
+                        @include ellipsis(1);
+                    }
+                    .mem-info {
+                        @include flexBox(end, center);
+                        column-gap: 1.875rem;
+                        @include pre-4(0.9875rem, 1.5rem);
+                        color: var(--d-fc3);
+                    }
+                }
+            }
+        }
+    }
+    // ========= 당첨 소감 한마디 end =========
+
+    // ========= 건전한 복권문화 영역 start =========
+    .cltre-box {
+        .cltre-item {
+            .cltre-item-img {
+                figure {
+                    img {
+                        width: 8rem;
+                    }
+                }
+            }
+        }
+    }
+    // ========= 건전한 복권문화 영역 end= ========
+
+    // =========== 인쇄복권 1등 당첨자 인터뷰 start ===========
+    .intrvw-boxWrap {
+        width: 100%;
+        max-width: unset;
+        padding: 1.875rem;
+        margin: 0 auto 3.75rem;
+        .intrvw-box {
+            position: relative;
+       
+            .intrvw-inbox {
+                background-color: var(--d-second1);
+                border-radius: 1.25rem;
+                padding: 1.875rem 1.875rem 7.625rem;
+                background-image: url(../img/main_img/img-intrvwBg01.svg);
+                background-repeat: no-repeat;
+                background-position: right 228px bottom 0;
+                @include gridBox(4);
+                column-gap: 1.875rem;
+                .intrvw-item {
+                    padding: 1.875rem;
+                    border-radius: 1.25rem;
+                    background-color: var(--d-second12);
+                    .game-name {
+                        @include g-5(1.125rem, 1.875rem);
+                        color: var(--d-fc3);
+                        margin-bottom: 1.125rem;
+                    }
+                    .game-money {
+                        @include g-7(1.25rem, 1.5rem);
+                        margin-top: 0.625rem;
+                    }
+                    .intrvw-sub {
+                        margin-top: 0.875rem;
+                        @include g-5(1.25rem, 2.125rem);
+                        @include ellipsis(2);
+                    }
+                    .intrvw-date {
+                        text-align: right;
+                        @include pre-4(0.9375rem, 1.5rem);
+                        color: var(--d-fc3);
+                    }
+                    &:nth-child(2) {
+                        position: relative;
+                        &::before {
+                            content: '';
+                            display: inline-block;
+                            background-image: url(../img/main_img/img-intrvwBg02.svg);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            position: absolute;
+                            top: -144px;
+                            left: 29px;
+                            width: 122px;
+                            height: 144px;
+                        }
+                    }
+                }
+            }
+            .intrvw-btn {
+                background-image: url(../img/main_img/img-btnBg-right.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                bottom: -5px;
+                right: 0;
+                .btn-mainGo {
+                    @include g-5(1.125rem, 1.875rem);
+                    padding: 52px 97px 30px 60px;
+                    background-image: url(../img/main_icon/icon-btnBg.svg);
+                    background-repeat: no-repeat;
+                    background-position: right 33px top 43px;
+                    background-size: 48px 48px;
+                }
+            }
+       
+        }
+    }
+    // =========== 인쇄복권 1등 당첨자 인터뷰 end===========
+
+   
+    // ========= 고객센터 start =========
+    .cstmer-box {
+        display: grid;
+        @include gridBox(1);
+        column-gap: 1.875rem;
+        &.mo-cstmer {
+            display: block;
+        }
+        .cstmer-inbox01 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            column-gap: 1rem;
+            row-gap: 1rem;
+            margin-bottom: 1.875rem;
+            .cstmerBox-item01 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr 1fr;
+                column-gap: 1rem;
+                row-gap: 1rem;
+                .boxItem-detail {
+                    &:hover {
+                        color: var(--d-fc1);
+                        text-decoration: none;
+                    }
+                    &:last-child {
+                        .boxItem-txt {
+                            padding-bottom: 2.625rem;
+                        }
+                    }
+                    padding: 1.5rem;
+                    border-radius: 1.125rem;
+                    border: 1px solid var(--d-lc5);
+                    box-shadow: unset;
+                    @include flexBox(between, end);
+                    .boxItem-txt {
+                        @include g-5(1.125rem, 1.5rem);
+                        padding-bottom: 1.125rem;
+                        .mo-clean-br {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .cstmerBox-item02 {
+                .d-sns-inbox {
+                    padding: 1.125rem;
+                    border-radius: 1.125rem;
+                    border: 1px solid var(--d-lc5);
+                    background-color: var(--d-bg4);
+                    .boxItem-sns {
+                        @include flexBox(between, center);
+                        margin-bottom: 1.625rem;                  
+                        .boxSns-txt {
+                            color: var(--d-fc3);
+                            @include g-5(1.125rem, 1.5rem);
+                        }
+                        .boxSns-icon {
+                            display: flex;
+                            height: 1.75rem;
+                            column-gap: 6px;
+                        }
+                       
+                    }
+                    .boxItem-video {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 1.25rem;
+                        overflow: hidden;
+                        background-color: var(--d-dc-y);
+                    }
+                }
+            }
+            .cstmerBox-item03 {
+                padding: 1.5rem;
+                border-radius: 1.125rem;
+                background-color: var(--d-primary1);
+                .d-clean-a {
+                    text-decoration: none;
+                    color: var(--d-bg2);
+                    .d-clean-inbox {
+                        background-image: url(../img/main_img/img-MO-clean-bg.svg);
+                        background-repeat: no-repeat;
+                        background-position: right 1.125rem center;
+                        background-size: auto;
+                        .d-clean-title {
+                            display: none
+                        }
+                        .d-clean-txt {
+                            @include g-5(1.125rem, 1.5rem);
+                            margin-bottom: 2rem;
+                            .pc-clean-br {
+                                display: none;
+                            }
+                        }
+                        .d-clean-info {
+                            color: var(--d-second5);
+                            @include pre-4 ( 0.9375rem, 0.9375rem);
+                            margin-bottom: 0.625rem;
+                        }
+                        .d-clean-tel {
+                            @include g-5(1.125rem, 1.5rem);
+                        }
+                    }
+                }
+            }
+        }
+        .cstmer-inbox02 {
+            display: block;
+            grid-template-columns: unset;
+            grid-template-rows: unset;
+            column-gap: 0;
+            .cstmer-board {
+                display: none;
+                &.tabTag {
+                    display: block;
+                }
+                padding: 0;
+                border-radius:0;
+                border: unset;
+                // overflow: hidden;
+                .cstmer-board-title {
+                    display: none;
+                }
+                .cstmer-board-content {
+                    .board-content-ul {
+                        display: block;
+                        row-gap: 1.25rem;                      
+                        .board-content-li {
+                            display: block;
+                            column-gap: 0;
+                            width: 100%;
+                            &:not(:last-child) {
+                                margin-bottom: 1.25rem;
+                            }
+                            .board-sbjct {
+                                display: block;
+                               
+                                color: var(--d-fc1);
+                                @include g-5(1.125rem, 1.5rem);
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                &:hover {
+                                    color: var(--d-fc1);
+                                    text-decoration: none;
+                                }
+                            }
+                            .board-date {
+                                display: block;
+                                margin-top: 0.25rem;
+                                @include pre-4(0.875rem, 1rem);
+                                color: var(--d-fc4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cstmer-tab-ul {
+            // width: 100%;
+            display: block;
+            @include flexBox(between, center);
+            border-bottom: 1px solid var(--d-lc7);
+            margin-bottom: 1rem;
+            .cstmer-tab-liWrap {
+                @include flexBox(start, center);
+                column-gap: 1.75rem;
+                .cstmer-tab-li {
+                    @include g-5(1.125rem, 1.5rem);
+                    padding-bottom: 0.625rem;
+                    &.tabTag {
+                        color: var(--d-primary1);
+                        border-bottom: 2px solid var(--d-primary1);
+                    }
+                }
+            }
+            .cstmer-go {
+                @include pre-4(0.9375rem, 1.125rem);
+                padding-bottom: 0.625rem;
+                color: var(--d-fc9);
+            }
+        }
+    }
+    // ========= 고객센터 end=========
+
+}
+
+// 5. 태블릿 : 760px
+@media screen and (max-width: 760px) {
+    section {
+        // display: none;
+        width: 100%;
+        .center-wrap {
+            width: 100%;
+            max-width: unset;
+            padding: 1rem 1.875rem 0;
+            margin: 0 auto 2rem;
+            &.d-instant-wrap {
+                margin-bottom: 0;
+            }
+            &.d-lottery-wrap {
+                margin-bottom: 0px;
+            }
+            &.d-intrvw-wrap {
+                margin-bottom: 0px;
+            }
+            .tit-wrap {
+                @include flexBox(between, center);
+                margin-bottom: 1rem;
+                .main-sub-title {
+                    color: var(--d-fc1);
+                    font-size: 1.125rem;
+                    line-height: 1.125rem;
+                }
+                .main-sub-view {
+                    @include pre-4(0.875rem, 1rem);
+                    color: var(--d-fc9);
+                }
+            }
+        }
+    }
+    // ========= 추첨식 복권 start =========
+    .d-lottery {
+        // display: none;
+        background-color: var(--d-bg8);
+        padding: 1rem 0;
+        margin-bottom: 7.5rem;    
+    }
+    .lottery-box-wrap {
+        @include gridBox(6);
+        grid-template-rows: auto;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        width:100%;
+        overflow-x: auto;
+        .lottery-box-text {
+            display: none;
+        }
+        .lottery-box {
+            width: 300px;
+            @include flexBox(center, center);
+            flex-direction: column;
+            border-radius: 1.25rem;
+            @include border(var(--d-lc5));
+            background-color: var(--d-bg2);
+            padding: 1rem 0 0;
+            overflow: hidden;
+            &.pt-30 {
+                padding: 0;
+                padding-top: 1rem;
+            }
+            .swiper {
+                &.lt645 {
+                    .swiper-wrapper {
+                        width: 272px;
+                        .lt645-inbox {
+                            .lt645-head {
+                                margin-top: 1.25rem;
+                                @include flexBox(start, center);
+                                flex-direction: column;
+                                padding-bottom: 1rem;
+                                border-bottom: 1px solid var(--d-lc2);
+                                .lt645-round {
+                                    @include g-5(1.375rem, 2.125rem);
+    
+                                }
+                                .lt645-date {
+                                    @include pre-4(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                            }
+                            .lt645-numBox {
+                                @include flexBox();
+                                height: 70px;
+                                padding: 0rem;
+                                .lt645-list {
+                                    display: grid;
+                                    grid-template-columns: 30px 30px 30px 30px 30px 30px 15px 30px;
+                                    grid-template-rows: max-content;
+                                    column-gap: 0.2rem;
+                                    .lt-ball {
+                                        @include pre-7(13px, 20px);
+                                        width: 30px;
+                                        height: 30px;
+                                        border-radius: 50%;
+                                        color: var(--d-bg2);
+                                        @include flexBox();
+                                        &.num-0n {
+                                            background-color: var(--d-dc-0n);
+                                        }
+                                        &.num-1n {
+                                            background-color: var(--d-dc-1n);
+                                        }
+                                        &.num-2n {
+                                            background-color: var(--d-dc-2n);
+                                        }
+                                        &.num-3n {
+                                            background-color: var(--d-dc-3n);
+                                        }
+                                        &.num-4n {
+                                            background-color: var(--d-dc-4n);
+                                        }
+                                        &.plus {
+                                            margin: 0.5rem 0 0;
+                                            width: 15px;
+                                            height: 15px;
+                                            img {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .lt645-winningInfo {
+                                @include flexBox();
+                                flex-direction: column;
+                                .info-txt {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                    margin-bottom: 0.375rem;
+                                }
+                                .info-winning-num {
+                                    @include flexBox(center, start);
+                                    .info-winning-money {
+                                        @include pre-7(1.5rem, 1.875rem);
+                                        margin-top: 0rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-won {
+                                        @include g-5(1.375rem, 2rem);
+                                        margin-right: 0.5rem;
+                                    }
+                                    .info-unit {
+                                        margin-top: 0rem;
+                                        @include pre-3(1rem, 1.75rem);
+                                    }
+                                }
+    
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    flex: 1;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    padding: 10px 0px;
+                                    @include hoverTrans();
+                                    @include g-5(12px, 16px);
+                                    border-radius: 8px;
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-lt645 {
+                        &.swiper-button-next {
+                    
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -85px;
+                                left: 0;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                        &.swiper-button-prev {
+                            @include hoverTrans();
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -85px;
+                                left: -9px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                    }
+                }
+                &.wf720 {
+                    .swiper-wrapper {
+                        width: 240px;
+                        .wf720-inbox {
+                            .wf720-head {
+                                margin-top: 2rem;
+                                @include flexBox(start, center);
+                                flex-direction: column;
+                                padding-bottom: 1rem;
+                                border-bottom: 1px solid var(--d-lc2);
+                                .wf720-round {
+                                    @include g-5(1.375rem, 2.125rem);
+    
+                                }
+                                .wf720-date {
+                                    @include pre-4(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                }
+                            }
+                            .wf720-numBox {
+                                @include flexBox();
+                                flex-direction: column;
+                                height: unset;
+                                .wf720-list {
+                                    width: 100%;
+                                    @include flexBox(between, center);
+                                    flex-direction: row;
+                                    margin-top: 0.5rem;
+                                    .wf720-tit {
+                                        @include g-5(0.75rem, 1rem);
+                                    }
+                                    .wf720-num-list {
+                                        @include flexBox(end, center);
+                                        column-gap: 0.1rem;
+                                        &.color-gray {
+                                            color: var(--d-fc3);
+                                        }
+                                        .wf-ball {
+                                            @include g-7(1rem, 1.5rem);
+                                            width: 28px;
+                                            height: 28px;
+                                            border-radius: 50%;
+                                            @include flexBox();
+                                            &.pension-jo {
+                                                border: 2px solid var(--d-wf-pen);
+                                            }
+                                            &.wf-1n {
+                                                border: 2px solid var(--d-wf-1n);
+                                            }
+                                            &.wf-2n {
+                                                border: 2px solid var(--d-wf-2n);
+                                            }
+                                            &.wf-3n {
+                                                border: 2px solid var(--d-wf-3n);
+                                            }
+                                            &.wf-4n {
+                                                border: 2px solid var(--d-wf-4n);
+                                            }
+                                            &.wf-5n {
+                                                border: 2px solid var(--d-wf-5n);
+                                            }
+                                            &.wf-6n {
+                                                border: 2px solid var(--d-wf-6n);
+                                            }
+                                        }
+                                        .num-jo {
+                                            display: flex;
+                                            align-items: center;
+                                            // padding-left: 3px;
+                                            @include g-5(0.75rem, 1rem);
+                                            color: var(--d-fc3);
+                                        }
+                                    }
+                                }
+                            }
+                            .wf720-winningInfo {
+                                @include flexBox();
+                                flex-direction: column;
+                                margin-top: 0.5rem;
+                                .info-txt {
+                                    @include g-5(0.9375rem, 1.5rem);
+                                    color: var(--d-fc3);
+                                    margin-bottom: 0.1rem;
+                                }
+                                .info-winning-num {
+                                    @include flexBox(center, start);
+                                    flex-direction: row;
+                                    .info-month {
+                                        @include g-5(1.375rem, 2rem);
+                                        margin-right: 0.5rem;
+                                    }
+                                    .info-winning-money {
+                                        @include pre-7(1.5rem, 1.875rem);
+                                        margin-top: 0rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-year {
+                                        @include pre-7(1.5rem, 1.875rem);
+                                        margin-top:0rem;
+                                        margin-right: 0.25rem;
+                                    }
+                                    .info-won {
+                                        @include g-5(1.375rem, 2rem);
+                                    }
+                                    .info-unit {
+                                        transform: translateY(-2px);
+                                        width: 30px;
+                                        height: 30px;
+                                        margin: 0 0 0;
+                                        img {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+    
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 1rem;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    flex: 1;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    padding: 10px 0px;
+                                    @include hoverTrans();
+                                    @include g-5(12px, 16px);
+                                    border-radius: 8px;
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-wf720 {
+                        &.swiper-button-next {
+                    
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-right-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-right.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -85px;
+                                left: 0;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                        &.swiper-button-prev {
+                            @include hoverTrans();
+                            &.swiper-button-disabled {
+                                opacity: .5;
+                            }
+                            &:hover {
+                                &::after {
+                                    background-image: url(../img/icon/icon-btn-gallery-left-hover.svg);
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                display: inline-block;
+                                background-image: url(../img/icon/icon-btn-gallery-left.svg);
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                position: absolute;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                top: -85px;
+                                left: -9px;
+                                // transform: translateY(-50%);
+                                @include hoverTrans();
+                            }
+                        }
+                    }
+                }
+
+            }
+            .lottery-boxWrap {
+                width: 100%;
+                .lottery-wrapper {
+                    .lottery-inbox {
+                        .lottery-head {
+                            margin: 0 1rem;                            
+                            @include flexBox(start, center);
+                            flex-direction: column;
+                            padding-bottom: 0.25rem;
+                            border-bottom: 1px solid var(--d-lc2);
+                            .head-wrap {
+                                @include flexBox();
+                                column-gap: 0.25rem;
+                                .head-round {
+                                    @include g-5(1.125rem, 1.125rem);
+                                }
+                                .main-tooltip {
+                                    margin: 0 0 0;
+                                    position: relative;
+                                }
+                            }
+                            .head-date {
+                                @include pre-4(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                            }
+                        }
+                        .lottery-numBox {
+                            @include flexBox();
+                            height: unset;
+                            padding: .5rem 0;
+                            .numBox-list {
+                                display: grid;
+                                grid-template-columns: 30px 30px 30px 30px 30px 15px 30px;
+                                grid-template-rows: max-content;
+                                column-gap: 0.2rem;
+                                &.view-all-box {
+                                    grid-template-columns: 30px 30px 30px 30px 30px 30px 70px;
+                                    column-gap: 0.2rem;
+                                }
+                                .lottery-ball {
+                                    @include pre-7(1.125rem, 1.75rem);
+                                    width: 30px;
+                                    height: 30px;
+                                    border-radius: 50%;
+                                    @include border(var(--d-wf-6n));
+                                    @include flexBox();
+                                    &.bonus {
+                                        background-color: var(--d-wf-4n);
+                                        color: var(--d-bg2);
+                                        @include border(transparent);
+                                    }
+                                    &.plus {
+                                        @include border(transparent);
+                                        margin: .5rem 0 0;
+                                        width: 15px;
+                                        height: 15px;
+                                        img {
+                                            width: 100%;
+                                        }
+                                    }
+                            
+                                }
+                                .btn-viewAll {
+                                    padding: 6px 6px 6px 16px;
+                                    color: var(--d-fc1);
+                                    border-radius: 2.5rem;
+                                    border: 1px solid var(--d-fc2);
+                                    background-color: var(--d-bg3);
+                                    background-image: url(../img/main_icon/icon-mainViewAll.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: left 6px center;
+                                    background-size: 0.875rem 0.875rem;
+                                    @include pre-4(0.875rem, 16px);
+                                    position: relative;
+                                    &::before {
+                                        content: '';
+                                        display: inline-block;
+                                        background-image: url(../img/main_img/img-viewAllBg.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: right center;
+                                        background-size: 2rem 2rem;
+                                        position: absolute;
+                                        left: -2.2rem;
+                                        top: 0;
+                                        width: 2rem;
+                                        height: 2rem;
+                                        cursor: default;
+                                    }
+                                }
+                            }
+                        }
+                        .lottery-winningInfo {
+                            @include flexBox();
+                            flex-direction: column;
+                            margin-bottom: 1.125rem;
+                            .info-txt {
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0rem;
+                            }
+                            .info-winning-num {
+                                @include flexBox(center, start);
+                                .info-winning-money {
+                                    @include pre-7(1.5rem, 1.5rem);
+                                    margin-top: 0rem;
+                                    margin-right: 0.25rem;
+                                }
+                                .info-won {
+                                    @include g-5(1.125rem, 2rem);
+                                    margin-right: 0.5rem;
+                                }
+                            }
+                        }
+                        .lottery-tail {
+                            background-color: var(--d-bg1);
+                            padding: 1.125rem 0;
+                            .realtime-txt {
+                                text-align: center;
+                                @include g-5(0.9375rem, 1.5rem);
+                                color: var(--d-fc3);
+                                margin-bottom: 0.635rem;
+                            }
+                            .realtime-money {
+                                @include flexBox(center, start);
+                                margin-bottom: 0.5rem;
+                                .realtime-num {
+                                    @include pre-7(1.5rem, 1.5rem);
+                                    margin-top: 0rem;
+                                }
+                                .realtime-won {
+                                    @include g-5(1.125rem, 2rem);
+                                }
+                            }
+                            .btn-mainRecWrap {
+                                margin-top: 0;
+                                @include flexBox(center, center);
+                                column-gap: 1rem;
+                                .btn-rec01 {
+                                    width: 50%;
+                                    column-gap: 1rem;
+                                    @include btnSubmit01;
+                                    padding: 10px 0px;
+                                    @include hoverTrans();
+                                    @include g-5(12px, 16px);
+                                    border-radius: 8px;
+                                    &:hover {
+                                        background-color: var(--d-primary3);
+                                    }
+                                    &.bg-2 {
+                                        background-color: var(--d-second5);
+                                        width: 100%;
+                                        color: var(--d-fc1);
+                                        &:hover {
+                                            background-color: var(--d-second8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    // ========= 추첨식 복권 end =========
+    // ========= 판매점 검색 start =========
+    .storeScrh-tit {
+        position: relative;
+        .storeInfo-wrap {
+            display: none;
+        }
+    }
+    .storeScrh-box {
+        border-radius: 1.125rem;
+        border: 1px solid var(--d-lc5);
+        padding: 1rem 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: max-content;
+        row-gap: 0.625rem;
+        .storeScrh-inbox01 {
+            padding-right: 0;
+            display: grid;
+            grid-template-columns:43px calc((100% - 75px) / 2) calc((100% - 75px) / 2);
+            grid-template-rows: max-content;
+            column-gap: 1rem;
+
+        }
+        .storeScrh-inbox02 {
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 43px calc(100% - 60px);
+            grid-template-rows: max-content;
+            column-gap: 1rem;
+        }
+        .storeSrch-item {
+            .storeScrh-item-head {
+                @include flexBox(start, center);
+                @include g-5(1rem, 1.125rem);
+            }
+            .main-select-box {
+                // overflow: hidden;
+                border-radius: 6.25rem;
+            }
+
+        }
+    }
+    // ========= 판매점 검색 end =========
+
+
+    // ========= 당첨 소감 한마디 start =========
+    .d-winner {
+        &.mt-240 {
+            margin-top: 50px;
+        }
+    }
+    .winner-box {
+        border-radius: 1.125rem;
+        border: 1px solid var(--d-lc5);
+        padding: 1rem 1.5rem;
+        position: relative;
+        background-color: var(--d-bg2);
+        &::before {
+            content: '';
+            display: inline-block;
+            background-image: url(../img/main_img/img-winnerShort.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: calc(-5rem - 1.5px);
+            right: 30px;
+            width: 5rem;
+            height: 5rem;
+        }
+        .swiper {
+            &.winnerShort {
+                width: 100%;
+                height: 9.5rem;
+                .inshort-item {
+                    // margin-bottom: 0 !important;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: max-content;
+                    .game-name {
+                        @include flexBox(center, center);
+                        width: fit-content;
+                        padding: 0.5rem 0.875rem;
+                        @include pre-4(0.9875rem, 1.5rem);
+                        color: var(--d-primary1);
+                        border-radius: 2.5rem;
+                        background-color: var(--d-second13);
+                        margin-right: 0;
+                        margin-bottom: 0.625rem;
+                    }
+                    .game-money {
+                        @include flexBox(start, center);
+                        @include g-5(0.875rem, 1.25rem);
+                        margin-bottom: 0.625rem;
+                        .money-tit {
+                            @include pre-4(1rem, 1.25rem);
+                            color: var(--d-fc3);
+                            transform: translateY(-1px);
+                        }
+                    }
+                    .winner-inshort {
+                        margin-bottom: 1.125rem;
+                        padding-top: 3px;
+                        @include g-5(1rem, 2rem);
+                        @include ellipsis(1);
+                    }
+                    .mem-info {
+                        @include flexBox(end, center);
+                        column-gap: 1.875rem;
+                        @include pre-4(0.9875rem, 1.5rem);
+                        color: var(--d-fc3);
+                    }
+                }
+            }
+        }
+    }
+    // ========= 당첨 소감 한마디 end =========
+
+    // ========= 건전한 복권문화 영역 start =========
+    .cltre-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0.625rem;
+        row-gap: 0.625rem;
+        .cltre-item {
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 1.25rem;
+            border: 1px solid var(--d-lc5);
+            box-shadow: unset;
+            @include flexBox(between, start);
+            flex-direction: column;
+            .cltre-item-txt {
+                .cltre-item-title {
+
+                    @include g-5( 1.125rem, 1.5rem);
+                    margin-bottom: 1.125rem;
+                    .mo-br {
+                        display: block;
+                    }
+                }
+                .cltre-item-detail {
+                    display: none;
+                    @include g-5(0.9375rem, 1.5rem);
+                    margin-bottom: 1.5rem;
+                }
+                .circle-btn-right {
+                    display: none;
+                }
+            }
+            .cltre-item-img {
+               
+                padding-left: calc(100% - 4rem);                
+                .cltre-imgWrap {
+                    @include flexBox(end, center);
+                    margin: 0 0 0;
+                    img {
+                        // text-align: right;
+                        width: 4rem;
+                    }
+                }
+            }
+        }
+    }
+    // ========= 건전한 복권문화 영역 end= ========
+
+    // =========== 인쇄복권 1등 당첨자 인터뷰 start ===========
+    .intrvw-boxWrap {
+        width: 100%;
+        max-width: unset;
+        padding: 0;
+        margin: 0 0 2rem;
+        .intrvw-box {
+            position: relative;
+            background-color: var(--d-second1);
+            .intrvw-inbox {
+                background-color: unset;
+                border-radius: 0;
+                padding: 1.125rem 1.125rem 5.5rem;
+                background-image: url(../img/main_img/img-intrvw-bg.svg);
+                background-repeat: no-repeat;
+                background-position: left 7px bottom;
+                display: grid;
+                grid-template-columns: repeat(4, 20rem);
+                grid-template-rows: max-content;
+                column-gap: 0.625rem;
+                width: 100%;
+                overflow-x: auto;
+                .intrvw-item {
+                    padding: 1.25rem;
+                    border-radius: 1.25rem;
+                    background-color: var(--d-second12);
+                    .game-name {
+                        @include g-5(1rem, 1.25rem);
+                        color: var(--d-fc3);
+                        margin-bottom: 1rem;
+                    }
+                    .intrvw-quot {
+                        margin: 0 0 0;
+                    }
+                    .game-money {
+                        @include g-7(1rem, 1.25rem);
+                        margin-top: 0.5rem;
+                    }
+                    .intrvw-sub {
+                        margin-top: 0.875rem;
+                        @include g-5(1rem, 1.25rem);
+                        @include ellipsis(2);
+                    }
+                    .intrvw-date {
+                        text-align: right;
+                        @include pre-4(0.9375rem, 1.5rem);
+                        color: var(--d-fc3);
+                        margin-top: 1.125rem;
+                    }
+                    &:nth-child(2) {
+                        position: relative;
+                        &::before {
+                            content: '';
+                            display: none;
+                            background-image: unset;
+                            background-repeat: unset;
+                            background-position: unset;
+                            position: unset;
+                        }
+                    }
+                }
+            }
+            .intrvw-btn {
+                background-image: unset;
+                background-repeat: unset;
+                background-size: unset;
+                position: absolute;
+                bottom: 0.125rem;
+                right: 1.125rem;
+                .btn-mainGo {
+                    position: sticky;
+                    bottom: 0px;
+                    right: 0;
+                    @include g-5(0.9375rem, 1.125rem);
+                    padding: 1rem 2.5rem 1.5rem 2rem;
+                    background-image: url(../img/main_icon/icon-btnBg.svg);
+                    background-repeat: no-repeat;
+                    background-position: right 0 top 5px;
+                    background-size: 2rem 2rem;
+                }
+            }
+       
+        }
+    }
+    // =========== 인쇄복권 1등 당첨자 인터뷰 end===========
+
+
+}
+// 6. 폴드류 : 576px
+
+// 7. 모바일 : 480px

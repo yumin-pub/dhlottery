@@ -1,0 +1,132 @@
+/* html 상의 font-style을 정의한다 */
+
+/* 헤드 폰트 */
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-display: swap;
+    src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'), 
+        url('../img/font/GmarketSansTTFBold.woff2') format('woff2');
+    }
+
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-display: swap;
+    src: local('Pretendard Bold'), 
+            url('../img/font/Pretendard-Bold.subset.woff2') format('woff2');
+}
+
+/* 기본 폰트 */
+/* medium, regular */
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-display: swap;
+    src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'), 
+        url('../img/font/GmarketSansTTFMedium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'), 
+            url('../img/font/Pretendard-SemiBold.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'), 
+            url('../img/font/Pretendard-Medium.subset.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    src: local('Pretendard Light'), 
+            url('../img/font/Pretendard-Light.subset.woff2') format('woff2');
+}
+
+
+/* html 상의 style을 reset한다. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html {
+    width:100%;
+    overflow-x:hidden;
+}
+/* p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+} */
+body { 
+    font-family: 'Pretendard'; 
+    font-weight: 400;
+    line-height: 1; 
+    /* 폰트사이즈의 값을 그대로 따른다 */
+    font-size: 16px; 
+    text-overflow: ellipsis;
+    max-width:100%;
+    background-color: var(--c-bg1);
+}
+
+/* a태그 속성 reset */
+a { 
+    color:var(--c-black);
+    text-decoration:none;
+    cursor: pointer;
+}
+/* a:link, a:visited { text-decoration:none}
+a:hover, a:focus, a:active { color:#3795db;} */
+
+
+/* list 속성 reset */
+ul, ol, li { 
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+/* img 속성 reset */
+img, video { 
+    vertical-align: top;
+}
+
+/* table 속성 reset */
+table { 
+    border-collapse: collapse;
+}
+
+label { 
+    cursor: pointer;
+}
+
+/* button 속성 reset */
+button {
+    background: inherit; 
+    border: none; 
+    box-shadow: none;
+    border-radius: 0; 
+    padding: 0; 
+    overflow: visible; 
+    cursor :pointer;
+}
+
+/* 반응형에 따른 기본 폰트 크키 */
+@media screen and (max-width: 1240px) {
+
+}
+@media screen and (max-width: 760px) {
+    html { 
+        font-size: 14px; 
+    }
+}

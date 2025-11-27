@@ -1,0 +1,150 @@
+
+/* color 스타일 정의 */
+:root {
+    /* font color */
+    --d-fc1: #111;
+    --d-fc2: #333;
+    --d-fc3: #666;
+    --d-fc4: #888;
+    --d-fc5: #ECECEC;
+    --d-fc6: #E9E9E9;
+    --d-fc7: #BCC0C5;
+    --d-fc8: #B8BBC1;
+    --d-fc9: #8F8F97;
+    --d-fc10: #BCBCBC;
+    
+    /* line color */
+    --d-lc1: #eee;
+    --d-lc2: #E4E6EA;
+    --d-lc3: #D8D8D8;
+    --d-lc4: #E2E8E3;
+    --d-lc5: #D6D6D6;
+    --d-lc6: #DDE1E4;
+    --d-lc7: #DDDDDD; 
+    --d-lc8: #FF9B80;
+    --d-lc9: #8AAAE5;  
+    --d-lc10: #44AF9B;
+
+    /* bg color */
+    --d-bg1: #F8F9FA;
+    --d-bg2: #fff;
+    --d-bg3: #F7F7F7;
+    --d-bg4: #FAFAFA;
+    --d-bg5: #F9FAFC;
+    --d-bg6: #F0F0F0;
+    --d-bg7: #ECF6FF;
+    --d-bg8: #FCFBF9;
+
+    /* Primary Colors */
+    --d-primary1: #11957D;
+    --d-primary2: #8BC24A;
+    --d-primary3: #107462;
+    --d-primary4: #0C7E65;
+    --d-primary5: #1F9E49;
+
+    /* Secondary Colors */
+    --d-second1: #FFE554;
+    --d-second2: #EFF5F7;
+    --d-second3: #CCF4EA;
+    --d-second4: #5F758D;
+    --d-second5: #E5F1EF;
+    --d-second6: #2BBCCE;
+    --d-second7: #41AA97;
+    --d-second8: #D8EFEB;
+    --d-second9: #BBE8DF;
+    --d-second10: #FFF000;
+    --d-second11: #0D8C75;
+    --d-second12: #FFFADD;
+    --d-second13: #ECF9EF;
+
+    
+    /* badge Colors */
+    --d-badge1: #5285C6;
+    --d-badge2: #227C9E;
+    --d-badge3: #5EA992;
+    --d-badge4: #0191B4;
+    --d-badge5: #8C949E;
+
+    /* detail Colors */
+    --d-dc-y: #F7CC01;
+    --d-dc-o: #EA652C;
+    --d-dc-b: #138BEA;
+    --d-dc-r: #D23F47;
+    --d-dc-t: #F08200;
+    --d-dc-p: #FF5800;
+    --d-dc-pur: #CC0CCC;
+    --d-dc-0n: #F3C00F;
+    --d-dc-1n: #45AAF2;
+    --d-dc-2n: #EA3B5A;
+    --d-dc-3n: #10B9B2;
+    --d-dc-4n: #9195A4;
+    --d-wf-pen: #D9D9D9;
+    --d-wf-1n: #DE4C0E;
+    --d-wf-2n: #F08200;
+    --d-wf-3n: #F3C00F;
+    --d-wf-4n: #2A9BDB;
+    --d-wf-5n: #A87AD7;
+    --d-wf-6n: #ADB0BA;
+    --d-naver: #03C75A;
+    --d-lt-paper: #F67C7C;
+    --d-self-over01Line: #FFC1B0;
+    --d-self-over01Text: #EC3200;
+    --d-self-over02Line: #A7C1F0;
+    --d-self-over02Text: #205ED0;
+
+
+    /* 추첨식 색상 */
+    /* lt645 */
+    --d-draw-lt : #EF0027;
+    --d-video01 : #FCDFE4;
+    --d-draw-ltStep : #D0455B;
+    --d-draw-ltTimer : #FB8EA1;
+    
+    /* wf720 */
+    --d-draw-wf: #FF6500;
+    --d-video02: #FFFAC9;
+    --d-draw-wfTimer : #F9A001;
+    
+    /* 즉석식-전자복권 */
+    --d-draw-jj: #005FAC;
+    --d-video03: #D7E9F4;
+    --d-draw-jjStep: #1A65B1;
+    --d-draw-realTime: #1775F9;
+
+    /* 즉석식-스피또 */
+    --d-inst-sptto: #009DAE;
+    --d-video04: #CEEBE9;
+    --d-inst-sptStep: #0084AE;
+    --d-inst-viewBg: #00B2C8;
+
+    /* 수탁사업자 브금 */
+    --d-main-color01: #498E37;
+    --d-main-color02: #07493C;
+    --d-main-color03: #333333;
+
+}
+
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0 none;
+    clip: rect(0, 0, 0, 0);
+}
+.no-line {
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+    border-bottom: unset;
+    border: unset;
+}
+.tag-br {
+    display: block;
+}
+.endBox-mb {
+    margin-bottom: 8.75rem;
+}
+
